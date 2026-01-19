@@ -6,49 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 15</title>
     <style>
-        /* AO3와 유사한 쾌적한 독서 환경 설정 */
         body { 
-            font-family: "Noto Sans SC", sans-serif; 
-            line-height: 2.2; 
-            padding: 5% 10%; 
-            max-width: 900px; 
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, sans-serif; 
+            padding: 50px 20px; 
+            max-width: 800px; 
             margin: 0 auto; 
-            background-color: #ffffff; 
-            color: #2a2a2a;
+            background-color: #f7f7f7; 
+            color: #333;
         }
-        /* 콜로모가 가장 선호하는 본문 선택자들 */
-        #novel_honbun, .userstuff, .chapter-content { 
-            font-size: 1.15rem; 
-            word-break: break-all;
+        #workskin { 
+            background: #fff; 
+            padding: 50px; 
+            border: 1px solid #ddd; 
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
         }
-        .navigation { 
-            text-align: center; 
-            margin-top: 100px; 
-            padding: 40px 0; 
-            border-top: 1px solid #eee; 
-        }
-        .next-link { 
+        #novel_honbun { font-size: 18px; word-break: break-all; }
+        /* Colomo 버튼 스타일 */
+        .novel_bn { text-align: center; margin-top: 100px; padding-top: 50px; border-top: 1px dotted #ccc; }
+        .novel_bn a.next { 
             display: inline-block; 
-            padding: 15px 30px; 
-            background: #900; /* AO3 느낌의 붉은색 포인트 */
+            padding: 12px 30px; 
+            background-color: #900; /* 아오삼 느낌의 붉은 계열 버튼 */
             color: white !important; 
             text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
+            border-radius: 4px; 
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header><h1>제 15 장</h1></header>
-    <hr>
-    
-    <article id="novel_honbun" class="userstuff chapter-content">
-        <p style="margin-bottom: 1.8em; text-indent: 1em;">技侦主任黄兴人到中年，头顶锃亮，步伐匆匆的同时还半侧着身体，说话跟打机关枪似的往外蹦：“昨晚数据恢复到十一点，今早四点就来上班了，赶紧弄完晚上我好去开我家那小子的家长会……嗨！他爹我次次被班主任当孙子训，这次再考倒数明儿你们就见不到我了，拼着性命不要，老子抽死他！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫安慰他：“没事，这不以后还能当警察呢吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">黄兴一愣，目光落在严峫身上，下意识道：“那可不行！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“刚说到哪了？”黄兴若无其事地咳了声：“哦，对，恢复数据。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“………………”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“被害人冯宇光的相册、通讯录、最近联系人，包括微信账号数据都恢复了，只有微信聊天记录暂时找不回来。喏，通话记录在这儿，被害人生前最后接的一个电话是非实名注册手机卡，无法三角定位，也确定不了机主。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫指着名单第二行：“这个呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这是个打出电话，时间离最后那个神秘的接入电话只差三分钟，通话时长四十八秒。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">四十八秒，说长不长，说短不短；如果是约定见面地点的话未免太啰嗦，聊点其他的话，时间又不够。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“这个啊，”黄兴说，“机主叫丁当，冯宇光实习那家公司带教主任的女儿，二十一岁的艺校学生。被害人跟她最近一个月来通话特别频繁，说实话，我估计这俩孩子是近水楼台先得月，谈恋爱了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫微微一笑。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">黄兴疑道：“你笑啥？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我笑你猜错了，被害人跟这姑娘不可能是恋爱关系。”严峫把装着手机的证物袋一晃：“赌不赌？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”黄兴谨慎道：“我劝你先看看通话记录再说。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不用看，我知道。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你凭什么知道？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫笑而不答：“赌不赌？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">黄兴不干了，说：“你这不是抬杠吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“什么抬杠，我这是基于事实之上的合理揣测。你对案情不完全了解……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">一道身影匆匆忙忙冲上楼，差点当头撞在严峫身上：“——哎哟！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫眼明手快，关键时刻闪身躲过了泼面而来的白色不明液体，也拯救了自己去年双十一淘宝来的二百块钱一打的黑T恤，斥道：“干什么呢，慌慌张张的！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">韩小梅一手豆浆一手包子，仿佛受了惊的小鹿：“啊，严队！你你你我我我……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">黄兴不忍目睹地扶住了额头。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你是来上班的，还是来野餐的？！”严峫简直出离的愤怒了，“老高呢，高盼青？让你带这丫头，你让她大上午的跑去吃包子？把外勤组老高给我拎过来！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不是高哥，不是！”韩小梅慌忙拦住他：“是严队您的朋友，刚才我去您办公室，他说您让我去去去买点吃的——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫脸色风云变幻，仿佛一座即将爆发的活火山，突然生生屈服在了名为“江停”的大自然的神鬼之力下。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“朋友？”黄兴奇道。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……哦，我叫来的现场目击证人，一忙起来就把他给忘了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫从委委屈屈的韩小梅手里一把夺过包子豆浆，想了想，又给塞了回去，把证物袋里的被害人手机丢给黄兴，说：“调出被害人抵达建宁后联系最频繁的人，包括这个叫丁当的，挨个叫来问话，回头让老高整理个笔录给我。”然后他再次一把夺过包子豆浆，上下打量韩小梅一眼，怒斥：“——警服怎么穿的？把衬衣塞进裤子里别好！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">韩小梅：“………………”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫拎着包子，扬长而去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“别跟这二傻计较。”黄兴拍拍快哭出来的韩小梅，向严峫离去的方向努了努嘴：“——三十多岁男人还找不到老婆，怎么会没原因呢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫坐在办公桌沿上，把热气腾腾的塑料袋往江停面前一晃，在对方抬手来拿的瞬间又缩了回去，“啪！”一声把案情分析报告摔上桌面，说：“喏，先干活。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停的手停在半空，随即从从容容地收了回去：“不看。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫说：“你现在呢，身家性命都在我手上，我劝你还是老实听话……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停一抬头，脸色白得冰雪似的：“不看。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫被他黑黢黢的眼珠和全无血色的脸惊呆了，足愣了好一会，连忙亲手把吸管插进豆浆杯，把包子皮底下那层纸撕了，双手奉到他面前。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停无声地盯了他几秒，终于缓缓探身，就着他的手喝了口豆浆，宽恕似的把早点接了过去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫自知理亏：“你说你这低血糖就早说嘛，来的路上你也不叫我停下买点吃的，这能怪谁？哦，我这儿还有半包饼干，你看，谁也没故意饿着你是不是……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“范正元吸毒？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停一边咬着包子一边翻案情分析，在尸检结果那几页停下了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“鼻吸加静脉注射，老油条了。怎么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停指着分析报告上的一行说明：“那你们怎么会认为他裤袋里那片苯丙胺化合物是给自己吃的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他的问题跟刚才案情分析会上严峫提出的一模一样。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫饶有兴味道：“为什么不是他自己吃？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“静脉注射一般都是用白粉状的四号二乙酰吗啡，对神经游走细胞释放多巴胺的刺激是非常惊人的，只要注射过一段时间，大脑内多巴胺受体的数量会急速减少；所以为了达到已有的刺激水平，所有重度瘾君子都会不停加大注射量。而冯宇光体内的苯丙胺合成物，属于勾引新手入门的轻量级别，对范正元的神经刺激微乎其微，他自己服用的可能性不大吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫上下打量江停，目光微微闪动，然后有点古怪地笑了一下：“你怎么知道，或许他就是看这种药片方便，便宜，当零嘴吃的呢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不可能。”江停一边翻报告一边漫不经心道，“四号二乙酰吗啡卖得贵是糊弄外行人，实际市场货里不知道掺杂了多少葡萄糖和滑石粉，价格不见得比苯丙胺合成物高。况且吗啡的劲没过，混着其他的抽会让人很不舒服，范正元没必要那么干。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">办公室里只听见他翻看尸检报告的动静，没有任何其他声响。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……你对毒品生意倒挺了解的，”过了好一会，严峫突兀地道。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这话明显不对劲，江停终于感觉到什么，眼皮一抬，正撞上了严峫锐利的目光。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“——看什么？”江停反问道，“我缉毒干了十多年，为什么不了解？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫刚要说什么，突然手机响了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“喂老秦，嗯，行你说……对对，找到了？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不知道电话那头秦川说了什么，严峫从办公桌上跳下来，快速抓起车钥匙，拎起外套：“好，你们去搜姓范的家，另一个地址发给我，我这就亲自过去。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停慢条斯理吃他的包子，冷不防塑料袋被严峫一夺：“甭吃了，赶紧跟我走，车上边走边吃去。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停皱眉道：“你干什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“禁毒支队摸出了范正元除了家之外的另一个窝藏据点，正准备安排线人带我们过去。”严峫一看塑料袋里的包子，嫌弃地撇了撇嘴：“啧，奶黄的。你这胃口还挺挑，能再娇气点不？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他拎着包子掉头往外走，冷不防突然一顿，袖口被江停拉住了：“等等。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么着？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停八风不动地坐在扶手椅里，而严峫站着，只见他晃了晃手里那本案情分析，说：“你们的侦查方向不对。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">一切就像三个小时前会议室里的争论重演，只不过严峫角色调转，而据理力争的一方换成了江停。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫心中暗笑，表面却丝毫不显，冷冷道：“怎么不对了？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“刑侦支队对范正元涉毒一事的怀疑，是基于他身上发现了毒品残留，并涉嫌持枪抢劫的基础上的。但你我却知道，范正元本身跟持枪抢劫没关系，他出现的唯一目的，是要我的命，只不过半途被人截胡了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“所以呢？”严峫故意道。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“杀死范正元的人能从他身上拿走什么，也就能留下什么。你怎么知道他口袋里的毒品残留，不是凶手诱导警方偏移侦查重点的手段？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫抱臂而立，似乎思考了片刻，懒洋洋道：“不行，你的推测几乎没有事实依据，再说警方跑去调查范正元也没问题啊，难道对凶手有什么好处不成？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——魏副局长的这个提问，正是严峫在案情分析会上争论卡壳的关键，他想知道江停会怎么回答。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“有的，”江停说，“争取时间。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一愣。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我建议你派人跟进范正元那条线，同时加大力度，亲自重审胡伟胜，重新勘察他的住处、银行账户、邮件往来。”江停说：“凶手不惜在你这个副支队长眼皮底下杀人灭口，说明对他来说，需要掩盖的事态已经到了相当严重的程度。如果警方被他带偏，侦查速度拖慢，那么冯宇光的死很可能会演变成当年恭州案一样不明不白的结局。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人对视片刻，严峫眯起了眼睛：“……当年你查案时，也出现了相似的情况？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停却在他审视的目光里无动于衷，起身从严峫手里拿过装包子的塑料袋，扔进了废纸篓。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“凉了，”他说。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">建宁市老机械机厂一度是西南地区耀眼的明珠，上个世纪七十年代，东郊建立起了庞大繁忙的工业区，轰轰烈烈的生产线，独立的医院、学校、邮局等基建设施。工人退休，子女顶班，国企管发粮票油票肉票，逢年过节还管发自行车票甚至冰箱票，铁饭碗代代相传，大半个建宁的姑娘都以嫁到东郊的工人家庭为荣。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">荣光直到上个世纪八十年代末期才渐渐衰落，直至九十年代掀起下岗潮，国营大厂从此落花流水，一泻千里。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">昔日繁华的家属区如今人去楼空，夕阳之下残桓断壁，到处写着巨大的拆字。塑料棚搭起来的小卖部上贴着花花绿绿褪了色的方便面广告，几个脏兮兮的小孩蹲在水沟边玩，不时发出方言口音浓重的尖叫声。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这种地方就算开法拉利都跟蹦蹦车似的，严峫终于放弃了，把手刹一拉火一熄，说：“不行，再开下去就是玩杂技了，麻烦江队你受累走两步吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">工业区宿舍是老式筒子楼，如今不说十室九空，起码也有个五六空了。尽管外面余晖仍在，楼道里却黑乎乎的，稍微往里走一点，经年累月的阴湿和霉气就争前恐后往人七窍里钻，江停冷不防打了个寒颤：“阿嚏！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫借着手机亮光在前面开路，说：“你这也太娇弱了吧？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停没答话。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫侧身挤过楼道拐角处堆积如山的杂物，小心翼翼踩着难以下脚的台阶，终于爬上了最高层——六楼。面向天井的走道外悬挂着衣服被子，走道内侧每一扇门都紧紧关着，往里走第四扇，破旧的黄色木板门上贴着警方的封条。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停手臂抱在胸前，一寸寸打量周遭的环境，突然眼前只见严峫递来一件军绿色外套：“嗯哼。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不用。”江停连伸手的意思都没有：“蹭破了赔不起。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫只穿一件黑色短袖T恤，坚实的肩部肌肉特别明显，不由分说把外套往他头上一罩：“得了吧，万一你着凉闹出个什么病来，回头我岂不是……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停终于说了实话：“你上次洗衣服是什么时候？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人大眼瞪小眼，片刻后，严峫用钥匙咔哒一声开了锁，冷冰冰道：“老实穿着，别那么多废话。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">屋里潮湿昏黑，开门便是一股难以形容的异味。严峫捂着鼻子去开灯，谁料电表已经被掐了，无奈只能继续用手机照明，只见满地都是杂物和垃圾，被侦查人员彻底检查过两次，整个陋居堪称惨不忍睹。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停小心跨进门，站在低矮的木板床边，微微皱着眉观察四周。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“外勤组来搜过两次，老高那手段，这屋里的每一只耗子都起名登记在册了。”严峫不客气地用手肘捣了他一下：“怎么，江队没见识过低端人口居住环境？有什么感想？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停接过严峫的手机，半蹲在地上，沿床下、地缝和墙根一一照射过去，凝神沉思了半晌。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫揶揄道：“问你话呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“没有感想。”江停平淡道，“我这个低端人口也是这么长大的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一怔。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停起身走到桌边，只见几个暖水瓶并排放着，杂物堆积在破旧到看不出颜色的塑料盘上，吃剩的方便面和“溜冰”用的壶就这么挨着彼此，油汤上已经结了厚厚一层白霉。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停站在那里，似乎遇到了什么难解的问题，修长乌黑的眉头拧着，从额头到鼻梁、嘴唇、乃至脖颈的曲线，在光影中构成了一道优雅别致的轮廓。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他突然拉开椅子坐了下去，严峫来不及阻止，只见他直直坐在那碗已经霉得发臭的方便面前，仿佛伸手要去拿筷子似的。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“喂，你……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停一抬手，严峫的话音戛然而止。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">紧接着，江停抬起头，若有所思地望向对面，目光自然而然落在了房间另一端残破不全，被报纸勉强糊住的窗户上。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫不知道他在看什么，只能眼错不眨地盯着他。只见江停倏而起身走向窗户，借着光亮仔细搜寻布满油污的窗台和木棱，突然伸手用力去推已经变形了的木头窗扇。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">嘭！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">窗子被推开了，晚风一拂而入，霎时将屋里令人作呕的异味冲散了不少。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“——过来吧，”江停指着外窗台，声音波澜不惊，说：“你们外勤组的活儿，也是够糙的。”</p>
-    </article>
-    
-    <nav class="navigation">
-        <a href="chapter_16.html" class="next-link" rel="next">Next Chapter (다음 편) &gt;&gt;</a>
-    </nav>
+    <div id="workskin">
+        <div id="novel_contents">
+            <div id="novel_honbun" class="novel_view">
+                <p id="L1" style="margin-bottom: 1.8em; line-height: 2.0;">技侦主任黄兴人到中年，头顶锃亮，步伐匆匆的同时还半侧着身体，说话跟打机关枪似的往外蹦：“昨晚数据恢复到十一点，今早四点就来上班了，赶紧弄完晚上我好去开我家那小子的家长会……嗨！他爹我次次被班主任当孙子训，这次再考倒数明儿你们就见不到我了，拼着性命不要，老子抽死他！”</p>
+<p id="L2" style="margin-bottom: 1.8em; line-height: 2.0;">严峫安慰他：“没事，这不以后还能当警察呢吗？”</p>
+<p id="L3" style="margin-bottom: 1.8em; line-height: 2.0;">黄兴一愣，目光落在严峫身上，下意识道：“那可不行！”</p>
+<p id="L4" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……”</p>
+<p id="L5" style="margin-bottom: 1.8em; line-height: 2.0;">“刚说到哪了？”黄兴若无其事地咳了声：“哦，对，恢复数据。”</p>
+<p id="L6" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“………………”</p>
+<p id="L7" style="margin-bottom: 1.8em; line-height: 2.0;">“被害人冯宇光的相册、通讯录、最近联系人，包括微信账号数据都恢复了，只有微信聊天记录暂时找不回来。喏，通话记录在这儿，被害人生前最后接的一个电话是非实名注册手机卡，无法三角定位，也确定不了机主。”</p>
+<p id="L8" style="margin-bottom: 1.8em; line-height: 2.0;">严峫指着名单第二行：“这个呢？”</p>
+<p id="L9" style="margin-bottom: 1.8em; line-height: 2.0;">这是个打出电话，时间离最后那个神秘的接入电话只差三分钟，通话时长四十八秒。</p>
+<p id="L10" style="margin-bottom: 1.8em; line-height: 2.0;">四十八秒，说长不长，说短不短；如果是约定见面地点的话未免太啰嗦，聊点其他的话，时间又不够。</p>
+<p id="L11" style="margin-bottom: 1.8em; line-height: 2.0;">“这个啊，”黄兴说，“机主叫丁当，冯宇光实习那家公司带教主任的女儿，二十一岁的艺校学生。被害人跟她最近一个月来通话特别频繁，说实话，我估计这俩孩子是近水楼台先得月，谈恋爱了。”</p>
+<p id="L12" style="margin-bottom: 1.8em; line-height: 2.0;">严峫微微一笑。</p>
+<p id="L13" style="margin-bottom: 1.8em; line-height: 2.0;">黄兴疑道：“你笑啥？”</p>
+<p id="L14" style="margin-bottom: 1.8em; line-height: 2.0;">“我笑你猜错了，被害人跟这姑娘不可能是恋爱关系。”严峫把装着手机的证物袋一晃：“赌不赌？”</p>
+<p id="L15" style="margin-bottom: 1.8em; line-height: 2.0;">“……”黄兴谨慎道：“我劝你先看看通话记录再说。”</p>
+<p id="L16" style="margin-bottom: 1.8em; line-height: 2.0;">“不用看，我知道。”</p>
+<p id="L17" style="margin-bottom: 1.8em; line-height: 2.0;">“你凭什么知道？”</p>
+<p id="L18" style="margin-bottom: 1.8em; line-height: 2.0;">严峫笑而不答：“赌不赌？”</p>
+<p id="L19" style="margin-bottom: 1.8em; line-height: 2.0;">黄兴不干了，说：“你这不是抬杠吗？”</p>
+<p id="L20" style="margin-bottom: 1.8em; line-height: 2.0;">“什么抬杠，我这是基于事实之上的合理揣测。你对案情不完全了解……”</p>
+<p id="L21" style="margin-bottom: 1.8em; line-height: 2.0;">一道身影匆匆忙忙冲上楼，差点当头撞在严峫身上：“——哎哟！”</p>
+<p id="L22" style="margin-bottom: 1.8em; line-height: 2.0;">严峫眼明手快，关键时刻闪身躲过了泼面而来的白色不明液体，也拯救了自己去年双十一淘宝来的二百块钱一打的黑T恤，斥道：“干什么呢，慌慌张张的！”</p>
+<p id="L23" style="margin-bottom: 1.8em; line-height: 2.0;">韩小梅一手豆浆一手包子，仿佛受了惊的小鹿：“啊，严队！你你你我我我……”</p>
+<p id="L24" style="margin-bottom: 1.8em; line-height: 2.0;">黄兴不忍目睹地扶住了额头。</p>
+<p id="L25" style="margin-bottom: 1.8em; line-height: 2.0;">“你是来上班的，还是来野餐的？！”严峫简直出离的愤怒了，“老高呢，高盼青？让你带这丫头，你让她大上午的跑去吃包子？把外勤组老高给我拎过来！”</p>
+<p id="L26" style="margin-bottom: 1.8em; line-height: 2.0;">“不是高哥，不是！”韩小梅慌忙拦住他：“是严队您的朋友，刚才我去您办公室，他说您让我去去去买点吃的——”</p>
+<p id="L27" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……”</p>
+<p id="L28" style="margin-bottom: 1.8em; line-height: 2.0;">严峫脸色风云变幻，仿佛一座即将爆发的活火山，突然生生屈服在了名为“江停”的大自然的神鬼之力下。</p>
+<p id="L29" style="margin-bottom: 1.8em; line-height: 2.0;">“朋友？”黄兴奇道。</p>
+<p id="L30" style="margin-bottom: 1.8em; line-height: 2.0;">“……哦，我叫来的现场目击证人，一忙起来就把他给忘了。”</p>
+<p id="L31" style="margin-bottom: 1.8em; line-height: 2.0;">严峫从委委屈屈的韩小梅手里一把夺过包子豆浆，想了想，又给塞了回去，把证物袋里的被害人手机丢给黄兴，说：“调出被害人抵达建宁后联系最频繁的人，包括这个叫丁当的，挨个叫来问话，回头让老高整理个笔录给我。”然后他再次一把夺过包子豆浆，上下打量韩小梅一眼，怒斥：“——警服怎么穿的？把衬衣塞进裤子里别好！”</p>
+<p id="L32" style="margin-bottom: 1.8em; line-height: 2.0;">韩小梅：“………………”</p>
+<p id="L33" style="margin-bottom: 1.8em; line-height: 2.0;">严峫拎着包子，扬长而去。</p>
+<p id="L34" style="margin-bottom: 1.8em; line-height: 2.0;">“别跟这二傻计较。”黄兴拍拍快哭出来的韩小梅，向严峫离去的方向努了努嘴：“——三十多岁男人还找不到老婆，怎么会没原因呢。”</p>
+<p id="L35" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L36" style="margin-bottom: 1.8em; line-height: 2.0;">严峫坐在办公桌沿上，把热气腾腾的塑料袋往江停面前一晃，在对方抬手来拿的瞬间又缩了回去，“啪！”一声把案情分析报告摔上桌面，说：“喏，先干活。”</p>
+<p id="L37" style="margin-bottom: 1.8em; line-height: 2.0;">江停的手停在半空，随即从从容容地收了回去：“不看。”</p>
+<p id="L38" style="margin-bottom: 1.8em; line-height: 2.0;">严峫说：“你现在呢，身家性命都在我手上，我劝你还是老实听话……”</p>
+<p id="L39" style="margin-bottom: 1.8em; line-height: 2.0;">江停一抬头，脸色白得冰雪似的：“不看。”</p>
+<p id="L40" style="margin-bottom: 1.8em; line-height: 2.0;">严峫被他黑黢黢的眼珠和全无血色的脸惊呆了，足愣了好一会，连忙亲手把吸管插进豆浆杯，把包子皮底下那层纸撕了，双手奉到他面前。</p>
+<p id="L41" style="margin-bottom: 1.8em; line-height: 2.0;">江停无声地盯了他几秒，终于缓缓探身，就着他的手喝了口豆浆，宽恕似的把早点接了过去。</p>
+<p id="L42" style="margin-bottom: 1.8em; line-height: 2.0;">严峫自知理亏：“你说你这低血糖就早说嘛，来的路上你也不叫我停下买点吃的，这能怪谁？哦，我这儿还有半包饼干，你看，谁也没故意饿着你是不是……”</p>
+<p id="L43" style="margin-bottom: 1.8em; line-height: 2.0;">“范正元吸毒？”</p>
+<p id="L44" style="margin-bottom: 1.8em; line-height: 2.0;">江停一边咬着包子一边翻案情分析，在尸检结果那几页停下了。</p>
+<p id="L45" style="margin-bottom: 1.8em; line-height: 2.0;">“鼻吸加静脉注射，老油条了。怎么？”</p>
+<p id="L46" style="margin-bottom: 1.8em; line-height: 2.0;">江停指着分析报告上的一行说明：“那你们怎么会认为他裤袋里那片苯丙胺化合物是给自己吃的？”</p>
+<p id="L47" style="margin-bottom: 1.8em; line-height: 2.0;">他的问题跟刚才案情分析会上严峫提出的一模一样。</p>
+<p id="L48" style="margin-bottom: 1.8em; line-height: 2.0;">严峫饶有兴味道：“为什么不是他自己吃？”</p>
+<p id="L49" style="margin-bottom: 1.8em; line-height: 2.0;">“静脉注射一般都是用白粉状的四号二乙酰吗啡，对神经游走细胞释放多巴胺的刺激是非常惊人的，只要注射过一段时间，大脑内多巴胺受体的数量会急速减少；所以为了达到已有的刺激水平，所有重度瘾君子都会不停加大注射量。而冯宇光体内的苯丙胺合成物，属于勾引新手入门的轻量级别，对范正元的神经刺激微乎其微，他自己服用的可能性不大吧。”</p>
+<p id="L50" style="margin-bottom: 1.8em; line-height: 2.0;">严峫上下打量江停，目光微微闪动，然后有点古怪地笑了一下：“你怎么知道，或许他就是看这种药片方便，便宜，当零嘴吃的呢。”</p>
+<p id="L51" style="margin-bottom: 1.8em; line-height: 2.0;">“不可能。”江停一边翻报告一边漫不经心道，“四号二乙酰吗啡卖得贵是糊弄外行人，实际市场货里不知道掺杂了多少葡萄糖和滑石粉，价格不见得比苯丙胺合成物高。况且吗啡的劲没过，混着其他的抽会让人很不舒服，范正元没必要那么干。”</p>
+<p id="L52" style="margin-bottom: 1.8em; line-height: 2.0;">办公室里只听见他翻看尸检报告的动静，没有任何其他声响。</p>
+<p id="L53" style="margin-bottom: 1.8em; line-height: 2.0;">“……你对毒品生意倒挺了解的，”过了好一会，严峫突兀地道。</p>
+<p id="L54" style="margin-bottom: 1.8em; line-height: 2.0;">这话明显不对劲，江停终于感觉到什么，眼皮一抬，正撞上了严峫锐利的目光。</p>
+<p id="L55" style="margin-bottom: 1.8em; line-height: 2.0;">“——看什么？”江停反问道，“我缉毒干了十多年，为什么不了解？”</p>
+<p id="L56" style="margin-bottom: 1.8em; line-height: 2.0;">严峫刚要说什么，突然手机响了。</p>
+<p id="L57" style="margin-bottom: 1.8em; line-height: 2.0;">“喂老秦，嗯，行你说……对对，找到了？”</p>
+<p id="L58" style="margin-bottom: 1.8em; line-height: 2.0;">不知道电话那头秦川说了什么，严峫从办公桌上跳下来，快速抓起车钥匙，拎起外套：“好，你们去搜姓范的家，另一个地址发给我，我这就亲自过去。”</p>
+<p id="L59" style="margin-bottom: 1.8em; line-height: 2.0;">江停慢条斯理吃他的包子，冷不防塑料袋被严峫一夺：“甭吃了，赶紧跟我走，车上边走边吃去。”</p>
+<p id="L60" style="margin-bottom: 1.8em; line-height: 2.0;">江停皱眉道：“你干什么？”</p>
+<p id="L61" style="margin-bottom: 1.8em; line-height: 2.0;">“禁毒支队摸出了范正元除了家之外的另一个窝藏据点，正准备安排线人带我们过去。”严峫一看塑料袋里的包子，嫌弃地撇了撇嘴：“啧，奶黄的。你这胃口还挺挑，能再娇气点不？”</p>
+<p id="L62" style="margin-bottom: 1.8em; line-height: 2.0;">他拎着包子掉头往外走，冷不防突然一顿，袖口被江停拉住了：“等等。”</p>
+<p id="L63" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么着？”</p>
+<p id="L64" style="margin-bottom: 1.8em; line-height: 2.0;">江停八风不动地坐在扶手椅里，而严峫站着，只见他晃了晃手里那本案情分析，说：“你们的侦查方向不对。”</p>
+<p id="L65" style="margin-bottom: 1.8em; line-height: 2.0;">一切就像三个小时前会议室里的争论重演，只不过严峫角色调转，而据理力争的一方换成了江停。</p>
+<p id="L66" style="margin-bottom: 1.8em; line-height: 2.0;">严峫心中暗笑，表面却丝毫不显，冷冷道：“怎么不对了？”</p>
+<p id="L67" style="margin-bottom: 1.8em; line-height: 2.0;">“刑侦支队对范正元涉毒一事的怀疑，是基于他身上发现了毒品残留，并涉嫌持枪抢劫的基础上的。但你我却知道，范正元本身跟持枪抢劫没关系，他出现的唯一目的，是要我的命，只不过半途被人截胡了。”</p>
+<p id="L68" style="margin-bottom: 1.8em; line-height: 2.0;">“所以呢？”严峫故意道。</p>
+<p id="L69" style="margin-bottom: 1.8em; line-height: 2.0;">“杀死范正元的人能从他身上拿走什么，也就能留下什么。你怎么知道他口袋里的毒品残留，不是凶手诱导警方偏移侦查重点的手段？”</p>
+<p id="L70" style="margin-bottom: 1.8em; line-height: 2.0;">严峫抱臂而立，似乎思考了片刻，懒洋洋道：“不行，你的推测几乎没有事实依据，再说警方跑去调查范正元也没问题啊，难道对凶手有什么好处不成？”</p>
+<p id="L71" style="margin-bottom: 1.8em; line-height: 2.0;">——魏副局长的这个提问，正是严峫在案情分析会上争论卡壳的关键，他想知道江停会怎么回答。</p>
+<p id="L72" style="margin-bottom: 1.8em; line-height: 2.0;">“有的，”江停说，“争取时间。”</p>
+<p id="L73" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一愣。</p>
+<p id="L74" style="margin-bottom: 1.8em; line-height: 2.0;">“我建议你派人跟进范正元那条线，同时加大力度，亲自重审胡伟胜，重新勘察他的住处、银行账户、邮件往来。”江停说：“凶手不惜在你这个副支队长眼皮底下杀人灭口，说明对他来说，需要掩盖的事态已经到了相当严重的程度。如果警方被他带偏，侦查速度拖慢，那么冯宇光的死很可能会演变成当年恭州案一样不明不白的结局。”</p>
+<p id="L75" style="margin-bottom: 1.8em; line-height: 2.0;">两人对视片刻，严峫眯起了眼睛：“……当年你查案时，也出现了相似的情况？”</p>
+<p id="L76" style="margin-bottom: 1.8em; line-height: 2.0;">江停却在他审视的目光里无动于衷，起身从严峫手里拿过装包子的塑料袋，扔进了废纸篓。</p>
+<p id="L77" style="margin-bottom: 1.8em; line-height: 2.0;">“凉了，”他说。</p>
+<p id="L78" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L79" style="margin-bottom: 1.8em; line-height: 2.0;">建宁市老机械机厂一度是西南地区耀眼的明珠，上个世纪七十年代，东郊建立起了庞大繁忙的工业区，轰轰烈烈的生产线，独立的医院、学校、邮局等基建设施。工人退休，子女顶班，国企管发粮票油票肉票，逢年过节还管发自行车票甚至冰箱票，铁饭碗代代相传，大半个建宁的姑娘都以嫁到东郊的工人家庭为荣。</p>
+<p id="L80" style="margin-bottom: 1.8em; line-height: 2.0;">荣光直到上个世纪八十年代末期才渐渐衰落，直至九十年代掀起下岗潮，国营大厂从此落花流水，一泻千里。</p>
+<p id="L81" style="margin-bottom: 1.8em; line-height: 2.0;">昔日繁华的家属区如今人去楼空，夕阳之下残桓断壁，到处写着巨大的拆字。塑料棚搭起来的小卖部上贴着花花绿绿褪了色的方便面广告，几个脏兮兮的小孩蹲在水沟边玩，不时发出方言口音浓重的尖叫声。</p>
+<p id="L82" style="margin-bottom: 1.8em; line-height: 2.0;">这种地方就算开法拉利都跟蹦蹦车似的，严峫终于放弃了，把手刹一拉火一熄，说：“不行，再开下去就是玩杂技了，麻烦江队你受累走两步吧。”</p>
+<p id="L83" style="margin-bottom: 1.8em; line-height: 2.0;">工业区宿舍是老式筒子楼，如今不说十室九空，起码也有个五六空了。尽管外面余晖仍在，楼道里却黑乎乎的，稍微往里走一点，经年累月的阴湿和霉气就争前恐后往人七窍里钻，江停冷不防打了个寒颤：“阿嚏！”</p>
+<p id="L84" style="margin-bottom: 1.8em; line-height: 2.0;">严峫借着手机亮光在前面开路，说：“你这也太娇弱了吧？”</p>
+<p id="L85" style="margin-bottom: 1.8em; line-height: 2.0;">江停没答话。</p>
+<p id="L86" style="margin-bottom: 1.8em; line-height: 2.0;">严峫侧身挤过楼道拐角处堆积如山的杂物，小心翼翼踩着难以下脚的台阶，终于爬上了最高层——六楼。面向天井的走道外悬挂着衣服被子，走道内侧每一扇门都紧紧关着，往里走第四扇，破旧的黄色木板门上贴着警方的封条。</p>
+<p id="L87" style="margin-bottom: 1.8em; line-height: 2.0;">江停手臂抱在胸前，一寸寸打量周遭的环境，突然眼前只见严峫递来一件军绿色外套：“嗯哼。”</p>
+<p id="L88" style="margin-bottom: 1.8em; line-height: 2.0;">“不用。”江停连伸手的意思都没有：“蹭破了赔不起。”</p>
+<p id="L89" style="margin-bottom: 1.8em; line-height: 2.0;">严峫只穿一件黑色短袖T恤，坚实的肩部肌肉特别明显，不由分说把外套往他头上一罩：“得了吧，万一你着凉闹出个什么病来，回头我岂不是……”</p>
+<p id="L90" style="margin-bottom: 1.8em; line-height: 2.0;">江停终于说了实话：“你上次洗衣服是什么时候？”</p>
+<p id="L91" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……”</p>
+<p id="L92" style="margin-bottom: 1.8em; line-height: 2.0;">两人大眼瞪小眼，片刻后，严峫用钥匙咔哒一声开了锁，冷冰冰道：“老实穿着，别那么多废话。”</p>
+<p id="L93" style="margin-bottom: 1.8em; line-height: 2.0;">屋里潮湿昏黑，开门便是一股难以形容的异味。严峫捂着鼻子去开灯，谁料电表已经被掐了，无奈只能继续用手机照明，只见满地都是杂物和垃圾，被侦查人员彻底检查过两次，整个陋居堪称惨不忍睹。</p>
+<p id="L94" style="margin-bottom: 1.8em; line-height: 2.0;">江停小心跨进门，站在低矮的木板床边，微微皱着眉观察四周。</p>
+<p id="L95" style="margin-bottom: 1.8em; line-height: 2.0;">“外勤组来搜过两次，老高那手段，这屋里的每一只耗子都起名登记在册了。”严峫不客气地用手肘捣了他一下：“怎么，江队没见识过低端人口居住环境？有什么感想？”</p>
+<p id="L96" style="margin-bottom: 1.8em; line-height: 2.0;">江停接过严峫的手机，半蹲在地上，沿床下、地缝和墙根一一照射过去，凝神沉思了半晌。</p>
+<p id="L97" style="margin-bottom: 1.8em; line-height: 2.0;">严峫揶揄道：“问你话呢？”</p>
+<p id="L98" style="margin-bottom: 1.8em; line-height: 2.0;">“没有感想。”江停平淡道，“我这个低端人口也是这么长大的。”</p>
+<p id="L99" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一怔。</p>
+<p id="L100" style="margin-bottom: 1.8em; line-height: 2.0;">江停起身走到桌边，只见几个暖水瓶并排放着，杂物堆积在破旧到看不出颜色的塑料盘上，吃剩的方便面和“溜冰”用的壶就这么挨着彼此，油汤上已经结了厚厚一层白霉。</p>
+<p id="L101" style="margin-bottom: 1.8em; line-height: 2.0;">江停站在那里，似乎遇到了什么难解的问题，修长乌黑的眉头拧着，从额头到鼻梁、嘴唇、乃至脖颈的曲线，在光影中构成了一道优雅别致的轮廓。</p>
+<p id="L102" style="margin-bottom: 1.8em; line-height: 2.0;">他突然拉开椅子坐了下去，严峫来不及阻止，只见他直直坐在那碗已经霉得发臭的方便面前，仿佛伸手要去拿筷子似的。</p>
+<p id="L103" style="margin-bottom: 1.8em; line-height: 2.0;">“喂，你……”</p>
+<p id="L104" style="margin-bottom: 1.8em; line-height: 2.0;">江停一抬手，严峫的话音戛然而止。</p>
+<p id="L105" style="margin-bottom: 1.8em; line-height: 2.0;">紧接着，江停抬起头，若有所思地望向对面，目光自然而然落在了房间另一端残破不全，被报纸勉强糊住的窗户上。</p>
+<p id="L106" style="margin-bottom: 1.8em; line-height: 2.0;">严峫不知道他在看什么，只能眼错不眨地盯着他。只见江停倏而起身走向窗户，借着光亮仔细搜寻布满油污的窗台和木棱，突然伸手用力去推已经变形了的木头窗扇。</p>
+<p id="L107" style="margin-bottom: 1.8em; line-height: 2.0;">嘭！</p>
+<p id="L108" style="margin-bottom: 1.8em; line-height: 2.0;">窗子被推开了，晚风一拂而入，霎时将屋里令人作呕的异味冲散了不少。</p>
+<p id="L109" style="margin-bottom: 1.8em; line-height: 2.0;">“——过来吧，”江停指着外窗台，声音波澜不惊，说：“你们外勤组的活儿，也是够糙的。”</p>
+
+            </div>
+            
+            <div class="novel_bn">
+                <a href="chapter_16.html" class="next" rel="next">Next Chapter (다음 장) >></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
         

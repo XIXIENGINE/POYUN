@@ -6,49 +6,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 3</title>
     <style>
-        /* AO3와 유사한 쾌적한 독서 환경 설정 */
         body { 
-            font-family: "Noto Sans SC", sans-serif; 
-            line-height: 2.2; 
-            padding: 5% 10%; 
-            max-width: 900px; 
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, sans-serif; 
+            padding: 50px 20px; 
+            max-width: 800px; 
             margin: 0 auto; 
-            background-color: #ffffff; 
-            color: #2a2a2a;
+            background-color: #f7f7f7; 
+            color: #333;
         }
-        /* 콜로모가 가장 선호하는 본문 선택자들 */
-        #novel_honbun, .userstuff, .chapter-content { 
-            font-size: 1.15rem; 
-            word-break: break-all;
+        #workskin { 
+            background: #fff; 
+            padding: 50px; 
+            border: 1px solid #ddd; 
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
         }
-        .navigation { 
-            text-align: center; 
-            margin-top: 100px; 
-            padding: 40px 0; 
-            border-top: 1px solid #eee; 
-        }
-        .next-link { 
+        #novel_honbun { font-size: 18px; word-break: break-all; }
+        /* Colomo 버튼 스타일 */
+        .novel_bn { text-align: center; margin-top: 100px; padding-top: 50px; border-top: 1px dotted #ccc; }
+        .novel_bn a.next { 
             display: inline-block; 
-            padding: 15px 30px; 
-            background: #900; /* AO3 느낌의 붉은색 포인트 */
+            padding: 12px 30px; 
+            background-color: #900; /* 아오삼 느낌의 붉은 계열 버튼 */
             color: white !important; 
             text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
+            border-radius: 4px; 
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header><h1>제 3 장</h1></header>
-    <hr>
-    
-    <article id="novel_honbun" class="userstuff chapter-content">
-        <p style="margin-bottom: 1.8em; text-indent: 1em;">翌日。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“谢谢你百忙之中抽空来见面，但我觉得……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫立刻：“我懂。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">市中心高级餐厅里环境私密，气氛良好，钢琴曲在银质刀叉的轻微碰撞中缓缓流淌。餐桌对面那姑娘咬了咬下唇，委婉道：“虽然我很尊敬警察这个职业，敬佩你们牺牲很多，但还是……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“我明白。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“严警官你真的是个好人，不管外貌还是条件都特别出色，你以后一定能……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“我知道。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人对视半晌，姑娘欲言又止。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫真诚道：“别担心，介绍人那边我去说。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">姑娘瞬间卸下了八百斤重担，如释重负地招手：“服务生，买单！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“买过了，”严峫用餐布抹了抹嘴，起身彬彬有礼道：“耽误您的时间实在不好意思，您家住哪个方向？能否允许我送您一程？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">姑娘微微心动：“那敢情好，您……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">手机响了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——严峫，家庭背景优越，标准偶像派长相，常年一线刑警工作锻炼出了穿衣显瘦脱衣有肉的身材，风度翩翩，出手大方，是个完美的相亲对象。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">然而这样一个大龄剩男在相亲市场上屡战屡败，原因只有一点——</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“喂？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“老大，魏局让你立刻回来，昨晚KTV冰柜藏尸案的尸检结果有了重大发现，案子现转到市局来了！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫挂断电话，抬起头，带着包含歉意的微笑问：“我送您去地铁站吧？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">姑娘通情达理，连连推辞，对刑警工作表示了高度的支持和理解。两人在一片友好的气氛中依依惜别，转身后彼此都第一时间删了对方的微信。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫走下餐厅台阶，五月初灿烂的阳光扑面而来。他从领口抽出墨镜戴上，撸了把头发，脑海中闪过那姑娘说了一半的：你以后一定能……</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫不胜唏嘘：“一定能练成神之右手的，要相信自己！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">手机即时响起，为梦想放声欢呼。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫懒洋洋接了：“喂哪位？……嗯嗯，我正在回市局的路上……什么？你说什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“哎呀卧槽老大！”主任法医的声音隔着电话都能听出眉飞色舞来：“你听我讲，可牛逼了。我们从死者体内验出了特别罕见的东西，市局的五一长假连续第七年又泡汤啦，就问你服不服？哈哈哈哈！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……二狗，说人话。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“谁是二狗，我叫苟利！想当年报考法医时我过五关斩六将，面对庄严的国旗与警徽，我就念了两句诗：苟利国家生死以，岂因祸福……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“挂了，回头见。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“哎哎哎！”苟主任说：“别挂呀，我告诉你吧：东莨菪碱。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫动作微顿：“东什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“东莨菪碱是一种生物碱，作用与阿托品类似，通常存在于晕车晕船药里。但是呢，死者体内的东莨菪碱含量是晕车药的一千六百倍，并和甲基苯丙胺结合在一起，足以引起强烈的幻觉、癫痫和精神紊乱。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫问：“也就是说这小子溜冰把自己溜死了？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“是，也不是。”苟主任得意道，“通过我丰富的专业经验，详实的化学知识，大胆的分析求证……初步可以断定死者体内的致幻剂是一种全新型毒品，注意，全新型，跟市面已知的所有毒品分子式都不相同。而直接死因呢，则是死者在致幻剂的作用下产生了极大幻觉和体内温度失调，因此主动走进冰柜关上门，把自己活活冻死了——你昨晚让分局技侦在冰柜门内侧拓下来的指纹也证明了这一点。怎么样老严？有没有豁然开朗之感？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫毫不吝啬地把昨晚万振国给自己的桂冠送了出去：“当代柯南！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">苟主任喜滋滋表示谦虚。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“行吧阿狗，通知所有人回来开会，把隔壁禁毒支队的秦川也给我叫来——我已经上车了，十五分钟后市局见。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“苟你爸，我叫苟利！……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">嘭一声巨响，严峫甩上车门，踩下了油门。他把手机随意丢在副驾驶上，大切诺基流畅地插进了车流中。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">十五分钟后，市局刑侦支队会议室。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">正值五一长假，所有没回老家探亲的刑警全部到齐，缉毒、技侦、图侦、胖墩墩的法医苟主任一一在座，连主管刑侦的魏尧副局长都端着大茶缸子挪到了首位上。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一身光鲜亮丽的相亲装备，把白色zilli衬衣袖口随意一卷，露出线条结实的手肘，在满屋子人安静的呼吸声中，打开了大屏幕上的监控录像。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">五月二号晚九点三十分，一个穿蓝色上衣、黑色长裤的背影出现在安全监控里，跌跌撞撞向小巷深处走去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">满室悄无声息，很多人下意识地向前倾身，紧紧盯着一个人临死前十分钟在这世上留下的最后的影像。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">死者手舞足蹈，步伐踉跄，不知道在跟幻想中的什么人对话，时而双手竭力前伸，时而痛苦揪住自己的头发，突然他脚下一绊，重重撞上了垃圾箱。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">咚！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">那一下撞得颇狠，隔着屏幕都能清清楚楚听见声音。但死者仿佛感觉不到疼，只顾拼命撕扯自己领口，伴随着这个动作，高清镜头显示出他脖颈上缓缓淌下暗色液体——那是耳孔中流出的血。紧接着他脱下毛衣，赤裸着上身贴着垃圾箱边，不顾肮脏地反复磨蹭。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">那神经质的濒死动作让会议室里很多人心中蓦然升起一股寒意，就在这时，从虚掩的KTV厨房后门里仿佛有什么引起了他的注意，死者勉强爬起来，摇摇晃晃地钻进了后厨。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">画面一闪，死者最后的身影消失在了镜头里。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">苟利矜持地掩口咳了一声。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“尸检报告大家已经拿到了，结合在冰柜内侧发现的指纹，我们初步怀疑死者在东莨菪碱的强烈致幻作用下把自己关进了冰柜里。大家看，死者手臂静脉没有发现注射痕迹，对喉管及食道的解剖则发现有甲基苯丙胺等成分残留，因此可以认定是毒品是经口服进入体内的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">苟利将尸检照片放上大屏幕，用激光笔一页页地翻给众人看，又说：“而关键在于，我们尽力还原致幻剂分子式后发现，死者服下的毒品，不与市面上已知的任何一种毒品重合。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">众人一阵交头接耳，魏副局长向前倾身：“难道是某种新型毒品？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">刑侦办案不讲主要次要，毕竟大家都是一样的人命关天，但从严重程度上来说，各类案件的确也有轻重之分。新型毒品流入辖区的严重程度，大概跟变态杀人狂一天之内在闹市区杀了二十个人，或者严峫突然犯病在公安系统内比武招亲差不多。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">如果是新型毒品流入，来源在哪里？渠道是什么？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">有没有形成规模？已经发展了多少下线？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">满室安静，没有人说话，突然一道低沉男声说：“……不太对。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">众人目光纷纷望去，魏副局长拍了拍大茶缸：“什么不对，小严？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫没说话，把监控重头看了一遍。癫狂扭曲的影像在他瞳孔深处晃动，直到监控结束，他才点了点屏幕下角的时间。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“昨晚近九点，目击者在KTV后门不远的人行道上看见死者独自徘徊，背着一个类似书包的黑色双肩背，这个包现在哪里？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“死者于九点半出现在监控中，毒品效果已经发作，很快死亡。那么从九点到九点半这段时间内死者去了什么地方，做了什么事情，或者说，见了什么人？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">众人还没发声，马翔唰一下举手抢答：“他购买毒品去了！包里……包里装着现金！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不一定是现金，” 严峫说。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他顿了顿，带着枪茧的手指一下下叩着自己的下巴：“我们假设死者和毒贩约好在案发现场附近见面，得到毒品，完成了交易。死者通过口服的形式吞下毒品，很快，亚甲二氧甲基苯丙胺令他产生幻觉，体温失调，全身发热。于是他开始脱衣服，首先挣脱掉的是双肩背。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">一只鼓鼓囊囊的双肩背包随意丢在路边，就算是晚上人迹罕至的小巷，也有很大可能性被人随手顺走。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">再说死者从头到脚满身名牌，连内裤都要四五百，背包一定不会是便宜货，被顺手牵羊的可能性就更大了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">魏副局长眉头皱的死紧：“但分局还没查到尸源，接警中心也没接到条件符合的失踪人口报告，手机定位暂时是做不到的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫指了指监控录像，突然问：“瘾君子会在什么情况下吸毒？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这话问得颇为跳跃，魏副局长没反应过来，缉毒那边有人咳了一声：“根据我们抓人的经验来看，大概分为两大类。一种是毒瘾发作时独自在家吸，另一种是关系比较密切的毒友聚众享受。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">说话的人面相斯文俊朗，戴一副金边眼镜，声调也不温不火，是被苟利临时从隔壁禁毒支队拉来的秦川。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">市局禁毒跟刑侦的情况差不多，都是一把手临近退休，二把手却还没到能顶上去的年纪，无奈一把手只能再拼着老命往下熬；刑侦支队的二把手是严峫，禁毒那边的就是秦川了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">虽然两人是经常勾搭出去喝酒的狐朋狗友，但在市局内部秦川的口碑靠谱很多——毕竟秦川擅长装大尾巴狼，雅的一面深入人心，痞的一面则隐藏得比较好，这种知性青年比较讨大叔大妈们喜欢。像严峫那样动不动把整组刑警带出去唱K的，比较挑战领导们脆弱的神经。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“独自吸毒一般发生在瘾君子的心理安全区，包括家里、出租屋、酒店房间，不太会出现吸毒者一边high一边在大街上手舞足蹈的情况。但如果是聚众吸毒呢，分局初步勘察了周围环境，包括不夜宫KTV的监控录像，也没发现有这个迹象。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“总之，” 秦川略一停顿，推了推眼镜：“就是一点线索也没有，完全想不到死者怎么会跑到马路上去的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">会议室里响起嗡嗡的讨论声。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不，”突然严峫说，“还有第三种情况。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川略怔：“什么情况？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫说：“试货。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫大腿跷二腿，斜倚在转椅里，用激光笔敲了敲桌沿。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“‘这是市面上没有的新鲜货，特别够劲，你就在我这试试，要是感觉好回头你都拿走’——我们假设死者和毒贩的交易地点离案发现场不远，步行距离在五到十分钟左右，看上去非常隐蔽，舒适，能给瘾君子提供足够的安全感……然而实际上又不那么安全。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">录像里，KTV后门连接着夜晚冷清的小巷，周围是狭窄的小路、关闭的商店、大排档的后厨，秦川的视线在屏幕上来回逡巡，突然悟了：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“车！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">吸毒的人瘾上来了，在车里High一会是常事。死者在毒贩的车里接头，没想到“新鲜货”劲头太足，以至于他“试货”后挣脱背包，不顾阻拦跑下了车，是目前看来最有可能接近事实的猜测！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“大狗，这种致幻剂从服用到发作需要多久？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">苟利忍气吞声地说：“五到十分钟，十五分钟以内到达药效巅峰。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫站起身：“马翔去交警大队调取昨晚九点至十点间案发现场周围所有出入口的监控录像，九点后进入区域停留半小时以上的全部追查车牌。秦川，带禁毒的兄弟们进一步摸排新型毒品流进本市的来源，我复勘一遍案发现场。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">所有人纷纷起身行动，秦川一边把椅子推回原位一边问：“你有什么灵感，老严？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“包。”严峫简短道，“找到那个包，离真相就不远了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">五一长假有效降低了晚高峰，严峫一手夹烟，一手搭着方向盘，在绿灯亮起时随着车流缓缓前移，蓝牙耳机中传来马翔的声音：“富阳交警大队的兄弟已经把监控录像调出来了，图侦初步对比，有十二辆车符合筛选条件，现在怎么办严哥？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫问：“没贴膜的几辆？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">对面悉悉索索片刻，“三辆！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“剩下九辆车中，驶离案发区域时满载的几辆？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“嘶——不好说，贴了膜的看不清楚，初步目测满载的两辆。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“目标就在剩下这七辆车里找，驶离时车内人员两名及以下的，列为优先侦查重点。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马超疑惑问：“为什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫刚要回答，突然前方一声巨响，紧接着车辆纷纷戛然停住，喇叭声此起彼伏。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“——哟严哥！怎么了你那边？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫探头出去，只见前方路口红绿灯下，一辆宝马把美团外卖给撞了，摩托车整个翻了过来，外卖稀里哗啦洒了一地。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你怎么骑车的，红灯了你还往前冲？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你这人别信口开河，我哪里闯了红灯！……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫摁熄烟头：“没事，前面撞车了我变个道。如果目标车内有超过两名乘客的话不会拦不住致幻剂发作后冲下车的死者，所以司机加乘客，人数在一到二的可能性相对比较大。你们先回市局，我晚点给你们带……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫的声音突然顿住。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">红绿灯又变了，对面车流缓缓启动。然而离事故发生不远的地方，一道侧影僵立十字路口中心，直勾勾盯着被撞翻的摩托车。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他就像被抽掉了魂，对越来越近的车辆毫无反应，而前面那辆货车似乎也没发现这个不显眼的行人，直接就往前压了上去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫瞳孔倏然缩紧——他认出了这个人是谁！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">所有细节都发生在同一瞬间。严峫打方向盘，踩下油门，尖锐的喇叭撕裂空气，一路长鸣变道，狠狠擦上货车，在颠簸中两条道上的车流同时停了下来！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我X！”货车司机刹车大怒：“你瞎了是吧，你他妈会不会开？！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫跳下车，从外套内袋摸出警察证展开，一亮。司机瞬间傻了，却只见严峫头都没回，径直向路口中心那道伶仃侧影冲去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">那是江停。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——喇叭响起的时候，江停一贯条缕分明的大脑仿佛当机了似的，茫茫一片空白。他看不见、听不见、也无法反应，视野中只有眼前的车祸现场无限放大、扭曲，破碎的时空呼啸而来，吞没了所有意识，恍惚间他又开车行驶在了三年前暴雨如注的省际高速公路上。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">对，就是那天。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">车后远处警笛震天，红蓝交错的光在后视镜中时隐时现。他就像落入陷阱的困兽，横冲直撞，走投无路，脑海只反复回响着一句话，绝对不能落到那些人手里，不能再落到他手里——</p><p style="margin-bottom: 1.8em; text-indent: 1em;">油门加速踩底，下一秒，前方冲出了一辆变道的货车。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">冲撞，剧痛，眩晕，天旋地转。数不清的车喇叭此起彼伏，现实与记忆交替，感知和幻象混合。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">紧接着，江停身体一轻，整个人天地倒转，被人拦腰抱起，一双坚实的手打破了他的魔障。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫打横抱着江停，三步并作两步穿过街口，冲上人行道，放在街边长椅上，抓住下颔迫使他抬头望向自己：“喂你怎么了？醒醒！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“看着我说话！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停焦距涣散，嘴唇微微颤抖，随即突然像从噩梦中醒来，猝然抓住了严峫扳着自己下巴的手。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……对不起，”江停喘息道，“不好意思。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫从高处俯视他，这么近的距离，将昨晚在现场没有看清的面容清晰映在眼底，甚至连每根眼睫的弧度，眼底疲惫的阴影，和微微泛白的唇角都无所遁形。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">刹那间，严峫心底再次模模糊糊地浮现出了某个影子。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——但紧接着就被打断了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停突然意识到自己的失态，一下就放开了严峫的手，整个人上半身后仰，拉开一段距离，抬眼问：“严警官？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">那一瞬间，正常状态下思维清醒的江停又回来了，除了苍白的脸色略微露出丁点狼狈之外，所有无形的提防都凭借后仰那一个动作重新装备上了身。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫站起来，咳了声。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“坐在这里等我。”他言简意赅吩咐，大步向堵在马路上的车流走去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">作者有话要说：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫（xie）</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不是严耶</p><p style="margin-bottom: 1.8em; text-indent: 1em;">也不是严牙</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫嚣张拍桌：“今晚就去站你们床头！”</p>
-    </article>
-    
-    <nav class="navigation">
-        <a href="chapter_4.html" class="next-link" rel="next">Next Chapter (다음 편) &gt;&gt;</a>
-    </nav>
+    <div id="workskin">
+        <div id="novel_contents">
+            <div id="novel_honbun" class="novel_view">
+                <p id="L1" style="margin-bottom: 1.8em; line-height: 2.0;">翌日。</p>
+<p id="L2" style="margin-bottom: 1.8em; line-height: 2.0;">“谢谢你百忙之中抽空来见面，但我觉得……”</p>
+<p id="L3" style="margin-bottom: 1.8em; line-height: 2.0;">严峫立刻：“我懂。”</p>
+<p id="L4" style="margin-bottom: 1.8em; line-height: 2.0;">市中心高级餐厅里环境私密，气氛良好，钢琴曲在银质刀叉的轻微碰撞中缓缓流淌。餐桌对面那姑娘咬了咬下唇，委婉道：“虽然我很尊敬警察这个职业，敬佩你们牺牲很多，但还是……”</p>
+<p id="L5" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“我明白。”</p>
+<p id="L6" style="margin-bottom: 1.8em; line-height: 2.0;">“严警官你真的是个好人，不管外貌还是条件都特别出色，你以后一定能……”</p>
+<p id="L7" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“我知道。”</p>
+<p id="L8" style="margin-bottom: 1.8em; line-height: 2.0;">两人对视半晌，姑娘欲言又止。</p>
+<p id="L9" style="margin-bottom: 1.8em; line-height: 2.0;">严峫真诚道：“别担心，介绍人那边我去说。”</p>
+<p id="L10" style="margin-bottom: 1.8em; line-height: 2.0;">姑娘瞬间卸下了八百斤重担，如释重负地招手：“服务生，买单！”</p>
+<p id="L11" style="margin-bottom: 1.8em; line-height: 2.0;">“买过了，”严峫用餐布抹了抹嘴，起身彬彬有礼道：“耽误您的时间实在不好意思，您家住哪个方向？能否允许我送您一程？”</p>
+<p id="L12" style="margin-bottom: 1.8em; line-height: 2.0;">姑娘微微心动：“那敢情好，您……”</p>
+<p id="L13" style="margin-bottom: 1.8em; line-height: 2.0;">手机响了。</p>
+<p id="L14" style="margin-bottom: 1.8em; line-height: 2.0;">——严峫，家庭背景优越，标准偶像派长相，常年一线刑警工作锻炼出了穿衣显瘦脱衣有肉的身材，风度翩翩，出手大方，是个完美的相亲对象。</p>
+<p id="L15" style="margin-bottom: 1.8em; line-height: 2.0;">然而这样一个大龄剩男在相亲市场上屡战屡败，原因只有一点——</p>
+<p id="L16" style="margin-bottom: 1.8em; line-height: 2.0;">“喂？”</p>
+<p id="L17" style="margin-bottom: 1.8em; line-height: 2.0;">“老大，魏局让你立刻回来，昨晚KTV冰柜藏尸案的尸检结果有了重大发现，案子现转到市局来了！”</p>
+<p id="L18" style="margin-bottom: 1.8em; line-height: 2.0;">“……”</p>
+<p id="L19" style="margin-bottom: 1.8em; line-height: 2.0;">严峫挂断电话，抬起头，带着包含歉意的微笑问：“我送您去地铁站吧？”</p>
+<p id="L20" style="margin-bottom: 1.8em; line-height: 2.0;">姑娘通情达理，连连推辞，对刑警工作表示了高度的支持和理解。两人在一片友好的气氛中依依惜别，转身后彼此都第一时间删了对方的微信。</p>
+<p id="L21" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L22" style="margin-bottom: 1.8em; line-height: 2.0;">严峫走下餐厅台阶，五月初灿烂的阳光扑面而来。他从领口抽出墨镜戴上，撸了把头发，脑海中闪过那姑娘说了一半的：你以后一定能……</p>
+<p id="L23" style="margin-bottom: 1.8em; line-height: 2.0;">严峫不胜唏嘘：“一定能练成神之右手的，要相信自己！”</p>
+<p id="L24" style="margin-bottom: 1.8em; line-height: 2.0;">手机即时响起，为梦想放声欢呼。</p>
+<p id="L25" style="margin-bottom: 1.8em; line-height: 2.0;">严峫懒洋洋接了：“喂哪位？……嗯嗯，我正在回市局的路上……什么？你说什么？”</p>
+<p id="L26" style="margin-bottom: 1.8em; line-height: 2.0;">“哎呀卧槽老大！”主任法医的声音隔着电话都能听出眉飞色舞来：“你听我讲，可牛逼了。我们从死者体内验出了特别罕见的东西，市局的五一长假连续第七年又泡汤啦，就问你服不服？哈哈哈哈！”</p>
+<p id="L27" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……二狗，说人话。”</p>
+<p id="L28" style="margin-bottom: 1.8em; line-height: 2.0;">“谁是二狗，我叫苟利！想当年报考法医时我过五关斩六将，面对庄严的国旗与警徽，我就念了两句诗：苟利国家生死以，岂因祸福……”</p>
+<p id="L29" style="margin-bottom: 1.8em; line-height: 2.0;">“挂了，回头见。”</p>
+<p id="L30" style="margin-bottom: 1.8em; line-height: 2.0;">“哎哎哎！”苟主任说：“别挂呀，我告诉你吧：东莨菪碱。”</p>
+<p id="L31" style="margin-bottom: 1.8em; line-height: 2.0;">严峫动作微顿：“东什么？”</p>
+<p id="L32" style="margin-bottom: 1.8em; line-height: 2.0;">“东莨菪碱是一种生物碱，作用与阿托品类似，通常存在于晕车晕船药里。但是呢，死者体内的东莨菪碱含量是晕车药的一千六百倍，并和甲基苯丙胺结合在一起，足以引起强烈的幻觉、癫痫和精神紊乱。”</p>
+<p id="L33" style="margin-bottom: 1.8em; line-height: 2.0;">严峫问：“也就是说这小子溜冰把自己溜死了？”</p>
+<p id="L34" style="margin-bottom: 1.8em; line-height: 2.0;">“是，也不是。”苟主任得意道，“通过我丰富的专业经验，详实的化学知识，大胆的分析求证……初步可以断定死者体内的致幻剂是一种全新型毒品，注意，全新型，跟市面已知的所有毒品分子式都不相同。而直接死因呢，则是死者在致幻剂的作用下产生了极大幻觉和体内温度失调，因此主动走进冰柜关上门，把自己活活冻死了——你昨晚让分局技侦在冰柜门内侧拓下来的指纹也证明了这一点。怎么样老严？有没有豁然开朗之感？”</p>
+<p id="L35" style="margin-bottom: 1.8em; line-height: 2.0;">严峫毫不吝啬地把昨晚万振国给自己的桂冠送了出去：“当代柯南！”</p>
+<p id="L36" style="margin-bottom: 1.8em; line-height: 2.0;">苟主任喜滋滋表示谦虚。</p>
+<p id="L37" style="margin-bottom: 1.8em; line-height: 2.0;">“行吧阿狗，通知所有人回来开会，把隔壁禁毒支队的秦川也给我叫来——我已经上车了，十五分钟后市局见。”</p>
+<p id="L38" style="margin-bottom: 1.8em; line-height: 2.0;">“苟你爸，我叫苟利！……”</p>
+<p id="L39" style="margin-bottom: 1.8em; line-height: 2.0;">嘭一声巨响，严峫甩上车门，踩下了油门。他把手机随意丢在副驾驶上，大切诺基流畅地插进了车流中。</p>
+<p id="L40" style="margin-bottom: 1.8em; line-height: 2.0;">十五分钟后，市局刑侦支队会议室。</p>
+<p id="L41" style="margin-bottom: 1.8em; line-height: 2.0;">正值五一长假，所有没回老家探亲的刑警全部到齐，缉毒、技侦、图侦、胖墩墩的法医苟主任一一在座，连主管刑侦的魏尧副局长都端着大茶缸子挪到了首位上。</p>
+<p id="L42" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一身光鲜亮丽的相亲装备，把白色zilli衬衣袖口随意一卷，露出线条结实的手肘，在满屋子人安静的呼吸声中，打开了大屏幕上的监控录像。</p>
+<p id="L43" style="margin-bottom: 1.8em; line-height: 2.0;">五月二号晚九点三十分，一个穿蓝色上衣、黑色长裤的背影出现在安全监控里，跌跌撞撞向小巷深处走去。</p>
+<p id="L44" style="margin-bottom: 1.8em; line-height: 2.0;">满室悄无声息，很多人下意识地向前倾身，紧紧盯着一个人临死前十分钟在这世上留下的最后的影像。</p>
+<p id="L45" style="margin-bottom: 1.8em; line-height: 2.0;">死者手舞足蹈，步伐踉跄，不知道在跟幻想中的什么人对话，时而双手竭力前伸，时而痛苦揪住自己的头发，突然他脚下一绊，重重撞上了垃圾箱。</p>
+<p id="L46" style="margin-bottom: 1.8em; line-height: 2.0;">咚！</p>
+<p id="L47" style="margin-bottom: 1.8em; line-height: 2.0;">那一下撞得颇狠，隔着屏幕都能清清楚楚听见声音。但死者仿佛感觉不到疼，只顾拼命撕扯自己领口，伴随着这个动作，高清镜头显示出他脖颈上缓缓淌下暗色液体——那是耳孔中流出的血。紧接着他脱下毛衣，赤裸着上身贴着垃圾箱边，不顾肮脏地反复磨蹭。</p>
+<p id="L48" style="margin-bottom: 1.8em; line-height: 2.0;">那神经质的濒死动作让会议室里很多人心中蓦然升起一股寒意，就在这时，从虚掩的KTV厨房后门里仿佛有什么引起了他的注意，死者勉强爬起来，摇摇晃晃地钻进了后厨。</p>
+<p id="L49" style="margin-bottom: 1.8em; line-height: 2.0;">画面一闪，死者最后的身影消失在了镜头里。</p>
+<p id="L50" style="margin-bottom: 1.8em; line-height: 2.0;">苟利矜持地掩口咳了一声。</p>
+<p id="L51" style="margin-bottom: 1.8em; line-height: 2.0;">“尸检报告大家已经拿到了，结合在冰柜内侧发现的指纹，我们初步怀疑死者在东莨菪碱的强烈致幻作用下把自己关进了冰柜里。大家看，死者手臂静脉没有发现注射痕迹，对喉管及食道的解剖则发现有甲基苯丙胺等成分残留，因此可以认定是毒品是经口服进入体内的。”</p>
+<p id="L52" style="margin-bottom: 1.8em; line-height: 2.0;">苟利将尸检照片放上大屏幕，用激光笔一页页地翻给众人看，又说：“而关键在于，我们尽力还原致幻剂分子式后发现，死者服下的毒品，不与市面上已知的任何一种毒品重合。”</p>
+<p id="L53" style="margin-bottom: 1.8em; line-height: 2.0;">众人一阵交头接耳，魏副局长向前倾身：“难道是某种新型毒品？”</p>
+<p id="L54" style="margin-bottom: 1.8em; line-height: 2.0;">刑侦办案不讲主要次要，毕竟大家都是一样的人命关天，但从严重程度上来说，各类案件的确也有轻重之分。新型毒品流入辖区的严重程度，大概跟变态杀人狂一天之内在闹市区杀了二十个人，或者严峫突然犯病在公安系统内比武招亲差不多。</p>
+<p id="L55" style="margin-bottom: 1.8em; line-height: 2.0;">如果是新型毒品流入，来源在哪里？渠道是什么？</p>
+<p id="L56" style="margin-bottom: 1.8em; line-height: 2.0;">有没有形成规模？已经发展了多少下线？</p>
+<p id="L57" style="margin-bottom: 1.8em; line-height: 2.0;">满室安静，没有人说话，突然一道低沉男声说：“……不太对。”</p>
+<p id="L58" style="margin-bottom: 1.8em; line-height: 2.0;">众人目光纷纷望去，魏副局长拍了拍大茶缸：“什么不对，小严？”</p>
+<p id="L59" style="margin-bottom: 1.8em; line-height: 2.0;">严峫没说话，把监控重头看了一遍。癫狂扭曲的影像在他瞳孔深处晃动，直到监控结束，他才点了点屏幕下角的时间。</p>
+<p id="L60" style="margin-bottom: 1.8em; line-height: 2.0;">“昨晚近九点，目击者在KTV后门不远的人行道上看见死者独自徘徊，背着一个类似书包的黑色双肩背，这个包现在哪里？”</p>
+<p id="L61" style="margin-bottom: 1.8em; line-height: 2.0;">“死者于九点半出现在监控中，毒品效果已经发作，很快死亡。那么从九点到九点半这段时间内死者去了什么地方，做了什么事情，或者说，见了什么人？”</p>
+<p id="L62" style="margin-bottom: 1.8em; line-height: 2.0;">众人还没发声，马翔唰一下举手抢答：“他购买毒品去了！包里……包里装着现金！”</p>
+<p id="L63" style="margin-bottom: 1.8em; line-height: 2.0;">“不一定是现金，” 严峫说。</p>
+<p id="L64" style="margin-bottom: 1.8em; line-height: 2.0;">他顿了顿，带着枪茧的手指一下下叩着自己的下巴：“我们假设死者和毒贩约好在案发现场附近见面，得到毒品，完成了交易。死者通过口服的形式吞下毒品，很快，亚甲二氧甲基苯丙胺令他产生幻觉，体温失调，全身发热。于是他开始脱衣服，首先挣脱掉的是双肩背。”</p>
+<p id="L65" style="margin-bottom: 1.8em; line-height: 2.0;">一只鼓鼓囊囊的双肩背包随意丢在路边，就算是晚上人迹罕至的小巷，也有很大可能性被人随手顺走。</p>
+<p id="L66" style="margin-bottom: 1.8em; line-height: 2.0;">再说死者从头到脚满身名牌，连内裤都要四五百，背包一定不会是便宜货，被顺手牵羊的可能性就更大了。</p>
+<p id="L67" style="margin-bottom: 1.8em; line-height: 2.0;">魏副局长眉头皱的死紧：“但分局还没查到尸源，接警中心也没接到条件符合的失踪人口报告，手机定位暂时是做不到的。”</p>
+<p id="L68" style="margin-bottom: 1.8em; line-height: 2.0;">严峫指了指监控录像，突然问：“瘾君子会在什么情况下吸毒？”</p>
+<p id="L69" style="margin-bottom: 1.8em; line-height: 2.0;">这话问得颇为跳跃，魏副局长没反应过来，缉毒那边有人咳了一声：“根据我们抓人的经验来看，大概分为两大类。一种是毒瘾发作时独自在家吸，另一种是关系比较密切的毒友聚众享受。”</p>
+<p id="L70" style="margin-bottom: 1.8em; line-height: 2.0;">说话的人面相斯文俊朗，戴一副金边眼镜，声调也不温不火，是被苟利临时从隔壁禁毒支队拉来的秦川。</p>
+<p id="L71" style="margin-bottom: 1.8em; line-height: 2.0;">市局禁毒跟刑侦的情况差不多，都是一把手临近退休，二把手却还没到能顶上去的年纪，无奈一把手只能再拼着老命往下熬；刑侦支队的二把手是严峫，禁毒那边的就是秦川了。</p>
+<p id="L72" style="margin-bottom: 1.8em; line-height: 2.0;">虽然两人是经常勾搭出去喝酒的狐朋狗友，但在市局内部秦川的口碑靠谱很多——毕竟秦川擅长装大尾巴狼，雅的一面深入人心，痞的一面则隐藏得比较好，这种知性青年比较讨大叔大妈们喜欢。像严峫那样动不动把整组刑警带出去唱K的，比较挑战领导们脆弱的神经。</p>
+<p id="L73" style="margin-bottom: 1.8em; line-height: 2.0;">“独自吸毒一般发生在瘾君子的心理安全区，包括家里、出租屋、酒店房间，不太会出现吸毒者一边high一边在大街上手舞足蹈的情况。但如果是聚众吸毒呢，分局初步勘察了周围环境，包括不夜宫KTV的监控录像，也没发现有这个迹象。”</p>
+<p id="L74" style="margin-bottom: 1.8em; line-height: 2.0;">“总之，” 秦川略一停顿，推了推眼镜：“就是一点线索也没有，完全想不到死者怎么会跑到马路上去的。”</p>
+<p id="L75" style="margin-bottom: 1.8em; line-height: 2.0;">会议室里响起嗡嗡的讨论声。</p>
+<p id="L76" style="margin-bottom: 1.8em; line-height: 2.0;">“不，”突然严峫说，“还有第三种情况。”</p>
+<p id="L77" style="margin-bottom: 1.8em; line-height: 2.0;">秦川略怔：“什么情况？”</p>
+<p id="L78" style="margin-bottom: 1.8em; line-height: 2.0;">严峫说：“试货。”</p>
+<p id="L79" style="margin-bottom: 1.8em; line-height: 2.0;">严峫大腿跷二腿，斜倚在转椅里，用激光笔敲了敲桌沿。</p>
+<p id="L80" style="margin-bottom: 1.8em; line-height: 2.0;">“‘这是市面上没有的新鲜货，特别够劲，你就在我这试试，要是感觉好回头你都拿走’——我们假设死者和毒贩的交易地点离案发现场不远，步行距离在五到十分钟左右，看上去非常隐蔽，舒适，能给瘾君子提供足够的安全感……然而实际上又不那么安全。”</p>
+<p id="L81" style="margin-bottom: 1.8em; line-height: 2.0;">录像里，KTV后门连接着夜晚冷清的小巷，周围是狭窄的小路、关闭的商店、大排档的后厨，秦川的视线在屏幕上来回逡巡，突然悟了：</p>
+<p id="L82" style="margin-bottom: 1.8em; line-height: 2.0;">“车！”</p>
+<p id="L83" style="margin-bottom: 1.8em; line-height: 2.0;">吸毒的人瘾上来了，在车里High一会是常事。死者在毒贩的车里接头，没想到“新鲜货”劲头太足，以至于他“试货”后挣脱背包，不顾阻拦跑下了车，是目前看来最有可能接近事实的猜测！</p>
+<p id="L84" style="margin-bottom: 1.8em; line-height: 2.0;">“大狗，这种致幻剂从服用到发作需要多久？”</p>
+<p id="L85" style="margin-bottom: 1.8em; line-height: 2.0;">苟利忍气吞声地说：“五到十分钟，十五分钟以内到达药效巅峰。”</p>
+<p id="L86" style="margin-bottom: 1.8em; line-height: 2.0;">严峫站起身：“马翔去交警大队调取昨晚九点至十点间案发现场周围所有出入口的监控录像，九点后进入区域停留半小时以上的全部追查车牌。秦川，带禁毒的兄弟们进一步摸排新型毒品流进本市的来源，我复勘一遍案发现场。”</p>
+<p id="L87" style="margin-bottom: 1.8em; line-height: 2.0;">所有人纷纷起身行动，秦川一边把椅子推回原位一边问：“你有什么灵感，老严？”</p>
+<p id="L88" style="margin-bottom: 1.8em; line-height: 2.0;">“包。”严峫简短道，“找到那个包，离真相就不远了。”</p>
+<p id="L89" style="margin-bottom: 1.8em; line-height: 2.0;">五一长假有效降低了晚高峰，严峫一手夹烟，一手搭着方向盘，在绿灯亮起时随着车流缓缓前移，蓝牙耳机中传来马翔的声音：“富阳交警大队的兄弟已经把监控录像调出来了，图侦初步对比，有十二辆车符合筛选条件，现在怎么办严哥？”</p>
+<p id="L90" style="margin-bottom: 1.8em; line-height: 2.0;">严峫问：“没贴膜的几辆？”</p>
+<p id="L91" style="margin-bottom: 1.8em; line-height: 2.0;">对面悉悉索索片刻，“三辆！”</p>
+<p id="L92" style="margin-bottom: 1.8em; line-height: 2.0;">“剩下九辆车中，驶离案发区域时满载的几辆？”</p>
+<p id="L93" style="margin-bottom: 1.8em; line-height: 2.0;">“嘶——不好说，贴了膜的看不清楚，初步目测满载的两辆。”</p>
+<p id="L94" style="margin-bottom: 1.8em; line-height: 2.0;">“目标就在剩下这七辆车里找，驶离时车内人员两名及以下的，列为优先侦查重点。”</p>
+<p id="L95" style="margin-bottom: 1.8em; line-height: 2.0;">马超疑惑问：“为什么？”</p>
+<p id="L96" style="margin-bottom: 1.8em; line-height: 2.0;">严峫刚要回答，突然前方一声巨响，紧接着车辆纷纷戛然停住，喇叭声此起彼伏。</p>
+<p id="L97" style="margin-bottom: 1.8em; line-height: 2.0;">“——哟严哥！怎么了你那边？”</p>
+<p id="L98" style="margin-bottom: 1.8em; line-height: 2.0;">严峫探头出去，只见前方路口红绿灯下，一辆宝马把美团外卖给撞了，摩托车整个翻了过来，外卖稀里哗啦洒了一地。</p>
+<p id="L99" style="margin-bottom: 1.8em; line-height: 2.0;">“你怎么骑车的，红灯了你还往前冲？”</p>
+<p id="L100" style="margin-bottom: 1.8em; line-height: 2.0;">“你这人别信口开河，我哪里闯了红灯！……”</p>
+<p id="L101" style="margin-bottom: 1.8em; line-height: 2.0;">严峫摁熄烟头：“没事，前面撞车了我变个道。如果目标车内有超过两名乘客的话不会拦不住致幻剂发作后冲下车的死者，所以司机加乘客，人数在一到二的可能性相对比较大。你们先回市局，我晚点给你们带……”</p>
+<p id="L102" style="margin-bottom: 1.8em; line-height: 2.0;">严峫的声音突然顿住。</p>
+<p id="L103" style="margin-bottom: 1.8em; line-height: 2.0;">红绿灯又变了，对面车流缓缓启动。然而离事故发生不远的地方，一道侧影僵立十字路口中心，直勾勾盯着被撞翻的摩托车。</p>
+<p id="L104" style="margin-bottom: 1.8em; line-height: 2.0;">他就像被抽掉了魂，对越来越近的车辆毫无反应，而前面那辆货车似乎也没发现这个不显眼的行人，直接就往前压了上去。</p>
+<p id="L105" style="margin-bottom: 1.8em; line-height: 2.0;">严峫瞳孔倏然缩紧——他认出了这个人是谁！</p>
+<p id="L106" style="margin-bottom: 1.8em; line-height: 2.0;">所有细节都发生在同一瞬间。严峫打方向盘，踩下油门，尖锐的喇叭撕裂空气，一路长鸣变道，狠狠擦上货车，在颠簸中两条道上的车流同时停了下来！</p>
+<p id="L107" style="margin-bottom: 1.8em; line-height: 2.0;">“我X！”货车司机刹车大怒：“你瞎了是吧，你他妈会不会开？！”</p>
+<p id="L108" style="margin-bottom: 1.8em; line-height: 2.0;">严峫跳下车，从外套内袋摸出警察证展开，一亮。司机瞬间傻了，却只见严峫头都没回，径直向路口中心那道伶仃侧影冲去。</p>
+<p id="L109" style="margin-bottom: 1.8em; line-height: 2.0;">那是江停。</p>
+<p id="L110" style="margin-bottom: 1.8em; line-height: 2.0;">——喇叭响起的时候，江停一贯条缕分明的大脑仿佛当机了似的，茫茫一片空白。他看不见、听不见、也无法反应，视野中只有眼前的车祸现场无限放大、扭曲，破碎的时空呼啸而来，吞没了所有意识，恍惚间他又开车行驶在了三年前暴雨如注的省际高速公路上。</p>
+<p id="L111" style="margin-bottom: 1.8em; line-height: 2.0;">对，就是那天。</p>
+<p id="L112" style="margin-bottom: 1.8em; line-height: 2.0;">车后远处警笛震天，红蓝交错的光在后视镜中时隐时现。他就像落入陷阱的困兽，横冲直撞，走投无路，脑海只反复回响着一句话，绝对不能落到那些人手里，不能再落到他手里——</p>
+<p id="L113" style="margin-bottom: 1.8em; line-height: 2.0;">油门加速踩底，下一秒，前方冲出了一辆变道的货车。</p>
+<p id="L114" style="margin-bottom: 1.8em; line-height: 2.0;">冲撞，剧痛，眩晕，天旋地转。数不清的车喇叭此起彼伏，现实与记忆交替，感知和幻象混合。</p>
+<p id="L115" style="margin-bottom: 1.8em; line-height: 2.0;">紧接着，江停身体一轻，整个人天地倒转，被人拦腰抱起，一双坚实的手打破了他的魔障。</p>
+<p id="L116" style="margin-bottom: 1.8em; line-height: 2.0;">严峫打横抱着江停，三步并作两步穿过街口，冲上人行道，放在街边长椅上，抓住下颔迫使他抬头望向自己：“喂你怎么了？醒醒！”</p>
+<p id="L117" style="margin-bottom: 1.8em; line-height: 2.0;">“……”</p>
+<p id="L118" style="margin-bottom: 1.8em; line-height: 2.0;">“看着我说话！”</p>
+<p id="L119" style="margin-bottom: 1.8em; line-height: 2.0;">江停焦距涣散，嘴唇微微颤抖，随即突然像从噩梦中醒来，猝然抓住了严峫扳着自己下巴的手。</p>
+<p id="L120" style="margin-bottom: 1.8em; line-height: 2.0;">“……对不起，”江停喘息道，“不好意思。”</p>
+<p id="L121" style="margin-bottom: 1.8em; line-height: 2.0;">严峫从高处俯视他，这么近的距离，将昨晚在现场没有看清的面容清晰映在眼底，甚至连每根眼睫的弧度，眼底疲惫的阴影，和微微泛白的唇角都无所遁形。</p>
+<p id="L122" style="margin-bottom: 1.8em; line-height: 2.0;">刹那间，严峫心底再次模模糊糊地浮现出了某个影子。</p>
+<p id="L123" style="margin-bottom: 1.8em; line-height: 2.0;">——但紧接着就被打断了。</p>
+<p id="L124" style="margin-bottom: 1.8em; line-height: 2.0;">江停突然意识到自己的失态，一下就放开了严峫的手，整个人上半身后仰，拉开一段距离，抬眼问：“严警官？”</p>
+<p id="L125" style="margin-bottom: 1.8em; line-height: 2.0;">那一瞬间，正常状态下思维清醒的江停又回来了，除了苍白的脸色略微露出丁点狼狈之外，所有无形的提防都凭借后仰那一个动作重新装备上了身。</p>
+<p id="L126" style="margin-bottom: 1.8em; line-height: 2.0;">严峫站起来，咳了声。</p>
+<p id="L127" style="margin-bottom: 1.8em; line-height: 2.0;">“坐在这里等我。”他言简意赅吩咐，大步向堵在马路上的车流走去。</p>
+<p id="L128" style="margin-bottom: 1.8em; line-height: 2.0;">作者有话要说：</p>
+<p id="L129" style="margin-bottom: 1.8em; line-height: 2.0;">严峫（xie）</p>
+<p id="L130" style="margin-bottom: 1.8em; line-height: 2.0;">不是严耶</p>
+<p id="L131" style="margin-bottom: 1.8em; line-height: 2.0;">也不是严牙</p>
+<p id="L132" style="margin-bottom: 1.8em; line-height: 2.0;">严峫嚣张拍桌：“今晚就去站你们床头！”</p>
+
+            </div>
+            
+            <div class="novel_bn">
+                <a href="chapter_4.html" class="next" rel="next">Next Chapter (다음 장) >></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
         

@@ -6,49 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 25</title>
     <style>
-        /* AO3와 유사한 쾌적한 독서 환경 설정 */
         body { 
-            font-family: "Noto Sans SC", sans-serif; 
-            line-height: 2.2; 
-            padding: 5% 10%; 
-            max-width: 900px; 
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, sans-serif; 
+            padding: 50px 20px; 
+            max-width: 800px; 
             margin: 0 auto; 
-            background-color: #ffffff; 
-            color: #2a2a2a;
+            background-color: #f7f7f7; 
+            color: #333;
         }
-        /* 콜로모가 가장 선호하는 본문 선택자들 */
-        #novel_honbun, .userstuff, .chapter-content { 
-            font-size: 1.15rem; 
-            word-break: break-all;
+        #workskin { 
+            background: #fff; 
+            padding: 50px; 
+            border: 1px solid #ddd; 
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
         }
-        .navigation { 
-            text-align: center; 
-            margin-top: 100px; 
-            padding: 40px 0; 
-            border-top: 1px solid #eee; 
-        }
-        .next-link { 
+        #novel_honbun { font-size: 18px; word-break: break-all; }
+        /* Colomo 버튼 스타일 */
+        .novel_bn { text-align: center; margin-top: 100px; padding-top: 50px; border-top: 1px dotted #ccc; }
+        .novel_bn a.next { 
             display: inline-block; 
-            padding: 15px 30px; 
-            background: #900; /* AO3 느낌의 붉은색 포인트 */
+            padding: 12px 30px; 
+            background-color: #900; /* 아오삼 느낌의 붉은 계열 버튼 */
             color: white !important; 
             text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
+            border-radius: 4px; 
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header><h1>제 25 장</h1></header>
-    <hr>
-    
-    <article id="novel_honbun" class="userstuff chapter-content">
-        <p style="margin-bottom: 1.8em; text-indent: 1em;">如果说昨晚目睹江停“吸毒”是他平生最惊魂不定的十秒, 那么现在, 就是最考验严峫作为一个有责任、有担当、有职业素养的男人, 是否具备基本道德水准的时候了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫极力克制着捏住江停的手，强迫他把这只耳麦丢出车外然后狠狠碾压二十遍的冲动，因为克制得太用力导致脸颊肌肉有点僵硬：“……洗……洗过了吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“？”江停说：“我以为这种电子设备过水就坏了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人久久对视, 江停有点不耐烦了：“你还要不要？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一寸寸抬起手臂，手指不住发抖，以骨节变色的力道强迫自己捻起密封袋的边缘, 迅速囫囵塞进裤袋里, 那一刻他感觉自己分明是揣上了点燃后滋啦作响的引线和整整十公斤重的C4。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停想了想去，想不出他这种表现的原因是什么, 便问：“你有洁癖？有洁癖的人可当不了刑警啊。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫拉扯出一个仿佛脸皮抽筋的微笑：“没，没有, 那个，案子压力太大了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不用太担心。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫还下意识沉浸在C4即将被引爆的惊慌中：“什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……你今天真的没问题吧？”江停眉头皱了起来：“我说不用担心, 胡伟胜死了，这个案子差不多很快就能破了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫无辜地瞪着他。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">在这样的目光里江停终于变得非常无奈，看了眼时间问：“你没吃饭吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“啊？嗯, 没？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你请我吃, ”江停发动了汽车，说：“跟我总结下迄今为止的所有线索。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">一品居，包厢。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">服务员接过江停还来的菜单，转身翩然而去，严峫才开口续完了刚才戛然中止的话：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“——事情经过就是这样, 接警平台记录显示，光两个月来颐和路派出所就接到过两次关于‘三春花事’出没卖淫行为的举报，治安大队和指挥中心都证实了这一点，因此可以证明昨晚的出警并不是蓄意而为。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停拆开湿纸巾，仔仔细细地擦拭每根手指。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“出警应该不是。”他顿了顿，说：“但报警是。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我也这么觉得，所以追查了那通报警电话，是从KTV外的一个公用电话亭使用投币方式打出去的。这种报警方式不同寻常且非常刻意，道路监控没有拍下报警人的正脸，从身形轮廓看，只能看出是个五六十岁的大叔。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“大叔？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫点点头。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……报警方式倒没什么，普通群众，怕夜店老板有门路，事后遭到打击报复，故意使用投币电话报警，勉强说得过去。”江停略微思忖片刻，说：“但一般扫黄举报，是以年轻人或大妈居多，五十多岁的中老年男性举报人相对少见。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫颔首表示赞同，然后突然又有点不满：“你这是什么意思？如果是我的话，就算到了七八十岁，遇到色情卖淫也一样会坚决举报的！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……先生，你们的温泉蛋饭和烤雪花牛套餐。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">服务员满脸通红地放下饭菜，架起小烤炉点上火，在诡异的安静中退出了包厢。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停用筷子搅拌蛋黄和饭粒，慢悠悠道：“没事，她只是被你的正直所倾倒了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“………………”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你们警局昨晚的行动知情范围有多大？”江停吃了口被拌得特别软的饭，头也不抬地问。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一边烤牛肉一边盯着他吃饭，觉得这人胃口确实已经娇气到了非常不男人的地步了，吃个饭还那么多要求，又是要蒸得软又是要加蛋黄，还少油少盐不要葱花——不知道晚上睡觉是不是也像豌豆公主似的要垫十二层毯子。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不机密但也不大，至少没大到足够解释连你都出现在了三春花事的地步。”严峫硬生生挪开目光：“当晚的行动人员，后勤处，指挥中心，知道三春花事这个地点的人粗略算有五十多个，知道具体行动内容的只有执行人。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停仔细咀嚼咽下了那口饭，然后才说：“我的话，只是让杨媚派人等在市局门口，时刻盯着你那辆辉腾的动静而已。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……我下次会换车的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“那经手胡伟胜那支二乙酰吗啡的人呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫三下五除二，把雪花和牛滋啦烤熟，就着肉、菜狼吞虎咽吃了半碗饭，顺手抄起餐巾纸抹了把嘴，说：“多了去了。平常收上来还没来得及销毁的毒品，看管员、统计员、化验室、技侦、法医、缉毒支队、刑侦支队、警犬技术支队……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停面色不愉。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“平时按规矩，只要确保最后销毁的毒品总量和收缴上来的公斤数对应就行了。也就是出了这个事，吕局才意识到这方面管理还是有漏洞，现正责令黄兴他们彻底复查呢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停慢慢吃着饭，几乎是每粒米都咀嚼干净了才咽下去，吃相非常干净斯文，跟餐桌对面以风卷残云之势扫荡战场的严峫形成了鲜明的对比。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“恭州早年也是这么处理的。”他说，“亡羊补牢，尤未晚也，你们吕局在公安系统内是个人物。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫满嘴塞着肉：“嗯哼？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停放下筷子，按铃让服务员上来把还剩下小半的菜收走。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“哎？”严峫诧异抬头：“这就吃好了？不合胃口？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“没有，饱了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“饱了？你怎么跟猫似的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">话音刚落包厢就变得异常安静，江停面无表情，而严峫满脸直男问号。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">许久江停终于问出了这句话：“……你为什么总对我吃饭的方式有意见？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“什么？没有，别瞎说，”严峫立刻矢口否认：“我关心你吃饭干什么，跟我有什么关系？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”然而江停又不傻，严峫这种每逢吃饭就要逼逼两句的毛病，分明就是字面意义上的没事找事。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“其实我是觉得吧，”严峫把满嘴食物咽下去，倒了杯清酒一饮而尽，仿若刚才无事发生般：“你平时晚回去一会儿杨媚就急得跟什么似的，今天出来跟我吃饭，万一要是没吃饱回去，杨媚肯定得背后骂我祖宗十八代，到时候我多冤枉啊，你说是不是。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停淡淡道：“这和杨媚有什么关系。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么没关系呢？人不是你女朋友吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不是。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫追问：“真不是？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停举起茶杯的手顿在半空，似乎意识到了什么，继而用微妙的眼神打量了严峫片刻：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……你似乎对杨媚的婚恋状况很关注，你想追她？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“啊？不是不是不是，没有没有没有，我纯粹……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“她曾经是我的线人，人不错，各方面也都可以，你想追可以先试着追一下。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不不不，你听我说，这个真没有。”严峫连忙摇手以示清白，笑嘻嘻说：“虽然我确实缺女朋友，但杨小姐那样的还是算了——江队你呢？你要是有姐姐妹妹什么的，给我介绍介绍呗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">从江停的表情来看他大概觉得严峫又犯病了。但一个人涵养好的好处在于，就算跟神经病对话，也还是能保持比较平稳的风度：“我没有姐妹。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫紧跟着就问：“那兄弟呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停：“………………”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫厚着脸皮坐在那，满脸期待答案的神情。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“没有。”江停一字一顿道，“我是独生子。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫眼底的失望不是假的，以至于江停不易察觉地向后挪了挪，尽量离他坐远了点。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“唉，我家也就生了我一个，所以父母催着成家的压力特别大啊。”严峫特别自然地唏嘘了句：“你懂的对吧江队，像咱们这样的，毕竟都这个年纪了——哎我说要不咱俩先……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他下面那半句“先回市局”还没出口，突然被对面咣当一声打断了，只见江停倏而站起身，不知怎么的全身绷得特别直，每根毛孔中都散发出警惕的味道：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你先吃着。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“？？？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我去趟洗手间。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫丈二和尚摸不着头脑，眼睁睁看着江停立正转身，头也不回弃他而去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“刚吃就拉啊？”严直男如是说。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他招手叫来服务员买单，刷卡的时候还多嘴提了个意见说你们家温泉蛋饭真难吃我朋友都没吃完，然后在服务员敢怒不敢言的目光中给了小费，取得了对方单方面的冰释前嫌。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他收拾收拾准备起身走人，突然手机铃响了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“喂？”严峫叼着烟：“马翔？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停有条不紊地站在水池前洗手，突然身后呼地一声，严峫破门而入：“你跟我来，有人报案——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停激灵转身，第一反应是往下看，确认自己裤链拉好了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“下次能否先敲门，严队？”江停的声音有点像是从齿缝里发出来的，说：“咱们应该还没熟到可以互相观赏对方解手的程度吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“化工厂报案，死者冯宇光的室友楚慈，昨晚利用本身对管理漏洞的熟悉，盗取保管处值班员的门卡，刺伤一名警卫，盗走大量管制化学原料后失踪。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫晃了晃手机，然后戏谑地盯着江停的脸，彬彬有礼又充满歉意：“对不起，鉴于咱俩的体格差距，如果我想看你的话随时都能看，所以刚才很抱歉，真不是故意的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停：“……”</p>
-    </article>
-    
-    <nav class="navigation">
-        <a href="chapter_26.html" class="next-link" rel="next">Next Chapter (다음 편) &gt;&gt;</a>
-    </nav>
+    <div id="workskin">
+        <div id="novel_contents">
+            <div id="novel_honbun" class="novel_view">
+                <p id="L1" style="margin-bottom: 1.8em; line-height: 2.0;">如果说昨晚目睹江停“吸毒”是他平生最惊魂不定的十秒, 那么现在, 就是最考验严峫作为一个有责任、有担当、有职业素养的男人, 是否具备基本道德水准的时候了。</p>
+<p id="L2" style="margin-bottom: 1.8em; line-height: 2.0;">严峫极力克制着捏住江停的手，强迫他把这只耳麦丢出车外然后狠狠碾压二十遍的冲动，因为克制得太用力导致脸颊肌肉有点僵硬：“……洗……洗过了吗？”</p>
+<p id="L3" style="margin-bottom: 1.8em; line-height: 2.0;">“？”江停说：“我以为这种电子设备过水就坏了。”</p>
+<p id="L4" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……”</p>
+<p id="L5" style="margin-bottom: 1.8em; line-height: 2.0;">两人久久对视, 江停有点不耐烦了：“你还要不要？”</p>
+<p id="L6" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一寸寸抬起手臂，手指不住发抖，以骨节变色的力道强迫自己捻起密封袋的边缘, 迅速囫囵塞进裤袋里, 那一刻他感觉自己分明是揣上了点燃后滋啦作响的引线和整整十公斤重的C4。</p>
+<p id="L7" style="margin-bottom: 1.8em; line-height: 2.0;">江停想了想去，想不出他这种表现的原因是什么, 便问：“你有洁癖？有洁癖的人可当不了刑警啊。”</p>
+<p id="L8" style="margin-bottom: 1.8em; line-height: 2.0;">严峫拉扯出一个仿佛脸皮抽筋的微笑：“没，没有, 那个，案子压力太大了。”</p>
+<p id="L9" style="margin-bottom: 1.8em; line-height: 2.0;">“不用太担心。”</p>
+<p id="L10" style="margin-bottom: 1.8em; line-height: 2.0;">严峫还下意识沉浸在C4即将被引爆的惊慌中：“什么？”</p>
+<p id="L11" style="margin-bottom: 1.8em; line-height: 2.0;">“……你今天真的没问题吧？”江停眉头皱了起来：“我说不用担心, 胡伟胜死了，这个案子差不多很快就能破了。”</p>
+<p id="L12" style="margin-bottom: 1.8em; line-height: 2.0;">严峫无辜地瞪着他。</p>
+<p id="L13" style="margin-bottom: 1.8em; line-height: 2.0;">在这样的目光里江停终于变得非常无奈，看了眼时间问：“你没吃饭吧。”</p>
+<p id="L14" style="margin-bottom: 1.8em; line-height: 2.0;">“啊？嗯, 没？”</p>
+<p id="L15" style="margin-bottom: 1.8em; line-height: 2.0;">“你请我吃, ”江停发动了汽车，说：“跟我总结下迄今为止的所有线索。”</p>
+<p id="L16" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L17" style="margin-bottom: 1.8em; line-height: 2.0;">一品居，包厢。</p>
+<p id="L18" style="margin-bottom: 1.8em; line-height: 2.0;">服务员接过江停还来的菜单，转身翩然而去，严峫才开口续完了刚才戛然中止的话：</p>
+<p id="L19" style="margin-bottom: 1.8em; line-height: 2.0;">“——事情经过就是这样, 接警平台记录显示，光两个月来颐和路派出所就接到过两次关于‘三春花事’出没卖淫行为的举报，治安大队和指挥中心都证实了这一点，因此可以证明昨晚的出警并不是蓄意而为。”</p>
+<p id="L20" style="margin-bottom: 1.8em; line-height: 2.0;">江停拆开湿纸巾，仔仔细细地擦拭每根手指。</p>
+<p id="L21" style="margin-bottom: 1.8em; line-height: 2.0;">“出警应该不是。”他顿了顿，说：“但报警是。”</p>
+<p id="L22" style="margin-bottom: 1.8em; line-height: 2.0;">“我也这么觉得，所以追查了那通报警电话，是从KTV外的一个公用电话亭使用投币方式打出去的。这种报警方式不同寻常且非常刻意，道路监控没有拍下报警人的正脸，从身形轮廓看，只能看出是个五六十岁的大叔。”</p>
+<p id="L23" style="margin-bottom: 1.8em; line-height: 2.0;">“大叔？”</p>
+<p id="L24" style="margin-bottom: 1.8em; line-height: 2.0;">严峫点点头。</p>
+<p id="L25" style="margin-bottom: 1.8em; line-height: 2.0;">“……报警方式倒没什么，普通群众，怕夜店老板有门路，事后遭到打击报复，故意使用投币电话报警，勉强说得过去。”江停略微思忖片刻，说：“但一般扫黄举报，是以年轻人或大妈居多，五十多岁的中老年男性举报人相对少见。”</p>
+<p id="L26" style="margin-bottom: 1.8em; line-height: 2.0;">严峫颔首表示赞同，然后突然又有点不满：“你这是什么意思？如果是我的话，就算到了七八十岁，遇到色情卖淫也一样会坚决举报的！”</p>
+<p id="L27" style="margin-bottom: 1.8em; line-height: 2.0;">“……先生，你们的温泉蛋饭和烤雪花牛套餐。”</p>
+<p id="L28" style="margin-bottom: 1.8em; line-height: 2.0;">服务员满脸通红地放下饭菜，架起小烤炉点上火，在诡异的安静中退出了包厢。</p>
+<p id="L29" style="margin-bottom: 1.8em; line-height: 2.0;">江停用筷子搅拌蛋黄和饭粒，慢悠悠道：“没事，她只是被你的正直所倾倒了。”</p>
+<p id="L30" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“………………”</p>
+<p id="L31" style="margin-bottom: 1.8em; line-height: 2.0;">“你们警局昨晚的行动知情范围有多大？”江停吃了口被拌得特别软的饭，头也不抬地问。</p>
+<p id="L32" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一边烤牛肉一边盯着他吃饭，觉得这人胃口确实已经娇气到了非常不男人的地步了，吃个饭还那么多要求，又是要蒸得软又是要加蛋黄，还少油少盐不要葱花——不知道晚上睡觉是不是也像豌豆公主似的要垫十二层毯子。</p>
+<p id="L33" style="margin-bottom: 1.8em; line-height: 2.0;">“不机密但也不大，至少没大到足够解释连你都出现在了三春花事的地步。”严峫硬生生挪开目光：“当晚的行动人员，后勤处，指挥中心，知道三春花事这个地点的人粗略算有五十多个，知道具体行动内容的只有执行人。”</p>
+<p id="L34" style="margin-bottom: 1.8em; line-height: 2.0;">江停仔细咀嚼咽下了那口饭，然后才说：“我的话，只是让杨媚派人等在市局门口，时刻盯着你那辆辉腾的动静而已。”</p>
+<p id="L35" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……我下次会换车的。”</p>
+<p id="L36" style="margin-bottom: 1.8em; line-height: 2.0;">“那经手胡伟胜那支二乙酰吗啡的人呢？”</p>
+<p id="L37" style="margin-bottom: 1.8em; line-height: 2.0;">严峫三下五除二，把雪花和牛滋啦烤熟，就着肉、菜狼吞虎咽吃了半碗饭，顺手抄起餐巾纸抹了把嘴，说：“多了去了。平常收上来还没来得及销毁的毒品，看管员、统计员、化验室、技侦、法医、缉毒支队、刑侦支队、警犬技术支队……”</p>
+<p id="L38" style="margin-bottom: 1.8em; line-height: 2.0;">江停面色不愉。</p>
+<p id="L39" style="margin-bottom: 1.8em; line-height: 2.0;">“平时按规矩，只要确保最后销毁的毒品总量和收缴上来的公斤数对应就行了。也就是出了这个事，吕局才意识到这方面管理还是有漏洞，现正责令黄兴他们彻底复查呢。”</p>
+<p id="L40" style="margin-bottom: 1.8em; line-height: 2.0;">江停慢慢吃着饭，几乎是每粒米都咀嚼干净了才咽下去，吃相非常干净斯文，跟餐桌对面以风卷残云之势扫荡战场的严峫形成了鲜明的对比。</p>
+<p id="L41" style="margin-bottom: 1.8em; line-height: 2.0;">“恭州早年也是这么处理的。”他说，“亡羊补牢，尤未晚也，你们吕局在公安系统内是个人物。”</p>
+<p id="L42" style="margin-bottom: 1.8em; line-height: 2.0;">严峫满嘴塞着肉：“嗯哼？”</p>
+<p id="L43" style="margin-bottom: 1.8em; line-height: 2.0;">江停放下筷子，按铃让服务员上来把还剩下小半的菜收走。</p>
+<p id="L44" style="margin-bottom: 1.8em; line-height: 2.0;">“哎？”严峫诧异抬头：“这就吃好了？不合胃口？”</p>
+<p id="L45" style="margin-bottom: 1.8em; line-height: 2.0;">“没有，饱了。”</p>
+<p id="L46" style="margin-bottom: 1.8em; line-height: 2.0;">“饱了？你怎么跟猫似的？”</p>
+<p id="L47" style="margin-bottom: 1.8em; line-height: 2.0;">话音刚落包厢就变得异常安静，江停面无表情，而严峫满脸直男问号。</p>
+<p id="L48" style="margin-bottom: 1.8em; line-height: 2.0;">许久江停终于问出了这句话：“……你为什么总对我吃饭的方式有意见？”</p>
+<p id="L49" style="margin-bottom: 1.8em; line-height: 2.0;">“什么？没有，别瞎说，”严峫立刻矢口否认：“我关心你吃饭干什么，跟我有什么关系？”</p>
+<p id="L50" style="margin-bottom: 1.8em; line-height: 2.0;">“……”然而江停又不傻，严峫这种每逢吃饭就要逼逼两句的毛病，分明就是字面意义上的没事找事。</p>
+<p id="L51" style="margin-bottom: 1.8em; line-height: 2.0;">“其实我是觉得吧，”严峫把满嘴食物咽下去，倒了杯清酒一饮而尽，仿若刚才无事发生般：“你平时晚回去一会儿杨媚就急得跟什么似的，今天出来跟我吃饭，万一要是没吃饱回去，杨媚肯定得背后骂我祖宗十八代，到时候我多冤枉啊，你说是不是。”</p>
+<p id="L52" style="margin-bottom: 1.8em; line-height: 2.0;">江停淡淡道：“这和杨媚有什么关系。”</p>
+<p id="L53" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么没关系呢？人不是你女朋友吗？”</p>
+<p id="L54" style="margin-bottom: 1.8em; line-height: 2.0;">“不是。”</p>
+<p id="L55" style="margin-bottom: 1.8em; line-height: 2.0;">严峫追问：“真不是？”</p>
+<p id="L56" style="margin-bottom: 1.8em; line-height: 2.0;">江停举起茶杯的手顿在半空，似乎意识到了什么，继而用微妙的眼神打量了严峫片刻：</p>
+<p id="L57" style="margin-bottom: 1.8em; line-height: 2.0;">“……你似乎对杨媚的婚恋状况很关注，你想追她？”</p>
+<p id="L58" style="margin-bottom: 1.8em; line-height: 2.0;">“啊？不是不是不是，没有没有没有，我纯粹……”</p>
+<p id="L59" style="margin-bottom: 1.8em; line-height: 2.0;">“她曾经是我的线人，人不错，各方面也都可以，你想追可以先试着追一下。”</p>
+<p id="L60" style="margin-bottom: 1.8em; line-height: 2.0;">“不不不，你听我说，这个真没有。”严峫连忙摇手以示清白，笑嘻嘻说：“虽然我确实缺女朋友，但杨小姐那样的还是算了——江队你呢？你要是有姐姐妹妹什么的，给我介绍介绍呗？”</p>
+<p id="L61" style="margin-bottom: 1.8em; line-height: 2.0;">从江停的表情来看他大概觉得严峫又犯病了。但一个人涵养好的好处在于，就算跟神经病对话，也还是能保持比较平稳的风度：“我没有姐妹。”</p>
+<p id="L62" style="margin-bottom: 1.8em; line-height: 2.0;">严峫紧跟着就问：“那兄弟呢？”</p>
+<p id="L63" style="margin-bottom: 1.8em; line-height: 2.0;">江停：“………………”</p>
+<p id="L64" style="margin-bottom: 1.8em; line-height: 2.0;">严峫厚着脸皮坐在那，满脸期待答案的神情。</p>
+<p id="L65" style="margin-bottom: 1.8em; line-height: 2.0;">“没有。”江停一字一顿道，“我是独生子。”</p>
+<p id="L66" style="margin-bottom: 1.8em; line-height: 2.0;">严峫眼底的失望不是假的，以至于江停不易察觉地向后挪了挪，尽量离他坐远了点。</p>
+<p id="L67" style="margin-bottom: 1.8em; line-height: 2.0;">“唉，我家也就生了我一个，所以父母催着成家的压力特别大啊。”严峫特别自然地唏嘘了句：“你懂的对吧江队，像咱们这样的，毕竟都这个年纪了——哎我说要不咱俩先……”</p>
+<p id="L68" style="margin-bottom: 1.8em; line-height: 2.0;">他下面那半句“先回市局”还没出口，突然被对面咣当一声打断了，只见江停倏而站起身，不知怎么的全身绷得特别直，每根毛孔中都散发出警惕的味道：</p>
+<p id="L69" style="margin-bottom: 1.8em; line-height: 2.0;">“你先吃着。”</p>
+<p id="L70" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“？？？”</p>
+<p id="L71" style="margin-bottom: 1.8em; line-height: 2.0;">“我去趟洗手间。”</p>
+<p id="L72" style="margin-bottom: 1.8em; line-height: 2.0;">严峫丈二和尚摸不着头脑，眼睁睁看着江停立正转身，头也不回弃他而去。</p>
+<p id="L73" style="margin-bottom: 1.8em; line-height: 2.0;">“刚吃就拉啊？”严直男如是说。</p>
+<p id="L74" style="margin-bottom: 1.8em; line-height: 2.0;">他招手叫来服务员买单，刷卡的时候还多嘴提了个意见说你们家温泉蛋饭真难吃我朋友都没吃完，然后在服务员敢怒不敢言的目光中给了小费，取得了对方单方面的冰释前嫌。</p>
+<p id="L75" style="margin-bottom: 1.8em; line-height: 2.0;">他收拾收拾准备起身走人，突然手机铃响了。</p>
+<p id="L76" style="margin-bottom: 1.8em; line-height: 2.0;">“喂？”严峫叼着烟：“马翔？”</p>
+<p id="L77" style="margin-bottom: 1.8em; line-height: 2.0;">江停有条不紊地站在水池前洗手，突然身后呼地一声，严峫破门而入：“你跟我来，有人报案——”</p>
+<p id="L78" style="margin-bottom: 1.8em; line-height: 2.0;">江停激灵转身，第一反应是往下看，确认自己裤链拉好了。</p>
+<p id="L79" style="margin-bottom: 1.8em; line-height: 2.0;">“下次能否先敲门，严队？”江停的声音有点像是从齿缝里发出来的，说：“咱们应该还没熟到可以互相观赏对方解手的程度吧。”</p>
+<p id="L80" style="margin-bottom: 1.8em; line-height: 2.0;">“化工厂报案，死者冯宇光的室友楚慈，昨晚利用本身对管理漏洞的熟悉，盗取保管处值班员的门卡，刺伤一名警卫，盗走大量管制化学原料后失踪。”</p>
+<p id="L81" style="margin-bottom: 1.8em; line-height: 2.0;">严峫晃了晃手机，然后戏谑地盯着江停的脸，彬彬有礼又充满歉意：“对不起，鉴于咱俩的体格差距，如果我想看你的话随时都能看，所以刚才很抱歉，真不是故意的。”</p>
+<p id="L82" style="margin-bottom: 1.8em; line-height: 2.0;">江停：“……”</p>
+
+            </div>
+            
+            <div class="novel_bn">
+                <a href="chapter_26.html" class="next" rel="next">Next Chapter (다음 장) >></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
         

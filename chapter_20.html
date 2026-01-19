@@ -6,49 +6,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 20</title>
     <style>
-        /* AO3와 유사한 쾌적한 독서 환경 설정 */
         body { 
-            font-family: "Noto Sans SC", sans-serif; 
-            line-height: 2.2; 
-            padding: 5% 10%; 
-            max-width: 900px; 
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, sans-serif; 
+            padding: 50px 20px; 
+            max-width: 800px; 
             margin: 0 auto; 
-            background-color: #ffffff; 
-            color: #2a2a2a;
+            background-color: #f7f7f7; 
+            color: #333;
         }
-        /* 콜로모가 가장 선호하는 본문 선택자들 */
-        #novel_honbun, .userstuff, .chapter-content { 
-            font-size: 1.15rem; 
-            word-break: break-all;
+        #workskin { 
+            background: #fff; 
+            padding: 50px; 
+            border: 1px solid #ddd; 
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
         }
-        .navigation { 
-            text-align: center; 
-            margin-top: 100px; 
-            padding: 40px 0; 
-            border-top: 1px solid #eee; 
-        }
-        .next-link { 
+        #novel_honbun { font-size: 18px; word-break: break-all; }
+        /* Colomo 버튼 스타일 */
+        .novel_bn { text-align: center; margin-top: 100px; padding-top: 50px; border-top: 1px dotted #ccc; }
+        .novel_bn a.next { 
             display: inline-block; 
-            padding: 15px 30px; 
-            background: #900; /* AO3 느낌의 붉은색 포인트 */
+            padding: 12px 30px; 
+            background-color: #900; /* 아오삼 느낌의 붉은 계열 버튼 */
             color: white !important; 
             text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
+            border-radius: 4px; 
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header><h1>제 20 장</h1></header>
-    <hr>
-    
-    <article id="novel_honbun" class="userstuff chapter-content">
-        <p style="margin-bottom: 1.8em; text-indent: 1em;">不仅审讯室, 连单面玻璃外的几个人都怔住了, 苟利喃喃道：“卧槽？什么情况？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胡伟胜像是坐在了电椅上, 五官都在奇怪地抽搐，让他本来就不太端正的眉毛眼睛显得更歪斜了，沙哑的喘气清晰可闻：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“姓江的不按规矩办事, 他死有应得，他本来就有这么一天……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“他兄弟是什么人，警察？检察院还是法院？不按规矩办事指的是什么, 审过你的都有哪些人？恭州系统内是不是有什么不成文的规矩？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">单面玻璃外传来咣咣咣的动静, 秦川一手敲窗，对蓝牙耳机低吼道：“老严！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫置若罔闻, 只见胡伟胜紧紧攥着烟头，咬着牙不停重复：“我不想死, 我没犯死罪，我就是个被带去拿货的。他们不能这样过河拆桥, 杀了姓江的，再来杀……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“谁带你去拿货？在哪儿拿的？要杀江停的是什么人？”严峫霍然起身，几乎逼近到了胡伟胜面前：“快说！不然把你放出去, 被撞死在高速公路上就是你明天的结局！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——如果江停在这里, 可能在严峫吼出“把你放出去”的时候，就已经把他下面的话一巴掌抽回去了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">事后严峫回想起来，也很后悔自己当时不管不顾吼除了后半句话。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他本意只是想再最后威吓一下嫌疑人，但事实证明当年警校教科书是无数经验总结出的至理——在刑事审讯这个环节里，任何一点差错, 都有可能造成前功尽弃的结局。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胡伟胜下意识望向严峫面前那张血腥的现场照片：“颐和路‘三春花树’，他们说新货都是从……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">突然他停住了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫眼睁睁看着他脸上的表情急剧变化，犹如一出荒谬的哑剧，从青到红，从红到紫，最终几乎变成铁青，挤出来两个字：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不对。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫心里一咯噔。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……骗我……你们骗我……你他妈敢骗老子？”胡伟胜嗫嚅的声音越来越大，突然变成了疯狂的大喊大叫：“你他妈竟敢耍我！这根本不是……老子弄死你！老子他妈的要弄死你这狗日的！你——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">手铐和铁椅一并哐哐作响，刑警见状不对，推开门冲了进去，两三个人同时把脸红脖子粗的胡伟胜强行按住，顿时脏到极点的谩骂和嚎叫从他嘴里迸发出来，混乱的审讯室简直不堪入耳。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“狗X养的条子，从老子骨头里榨油，不得好死……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“老严？”秦川快步而入：“你没事吧？怎么搞的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫盯着眼前那张照片，什么都说不出来，脑海一片空白，只剩潜意识在飞速转动。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不对，哪里不对？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">人已经被碾得只剩肉糊了，整个画面几乎看不出任何可以分辨的人体组织，更别提什么体貌特征；画面角落不明显处唯一仅存的半边头颅，还是血呼滋啦的后脑勺对镜头，范四他亲妈来了都不会认得。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胡伟胜明明已经被唬住了，是什么让他突然清楚地分辨出这不对？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">画面上的哪一个细节，让他笃定这摊肉酱不是自己的同伙？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“老严！”秦川一巴掌拍在他肩膀上：“干什么呢，你魔怔了！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">砰！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫站起身，折叠椅与地面摩擦发出刺耳的声响，只听他说：“我知道了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川眉头一皱：“……知道什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“她是个女人。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胡伟胜大叫大骂的动作突然停了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“这张图上唯一暴露外貌特征的只有短发，而你的同伙，是个长头发的女人。所以冯宇光服食毒品发狂下车时她拉不住他，而你包庇同伙不仅是因为怕她一个女人经不住审，还因为你们之间有感情联系。”严峫一字一顿道，“你喜欢她。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胡伟胜嘴唇发抖，仿佛刚才暴怒跳脚的换了一个人。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫把照片随手往秦川怀里一塞：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“排查重点马上转移到胡伟胜的男女关系上，包括金钱流通、租户来往，身边出现过的手机联系过的任何异性，上到六十下到十六，一个都别放过，立刻！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">三春花树。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">从名字看老板确实已经尽力了，奈何夜店就是夜店，并没有因此稍微多点风雅。舞池闪烁的彩灯光芒四射，吧台前觥筹交错，DJ在二楼摇头晃脑，整个背景旋律强劲如同工地打桩机；在这里别说隐蔽交流，哪怕稍微隔开两步，就连大声吼叫都很难听清了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“麦卡伦25年，喝纯的，流程都不要了，直接送上来。”严峫顺手将几张钞票插进女酒保性感的深沟里，“给你的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">女酒保一双媚眼被妆点得楚楚动人，滑溜而老练地往严峫腕表上一扫 ，含笑转身而去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“执行人已就位，线人正向你处移动。”耳机里爆发出年轻男女放肆的大笑，随即传来秦川的调侃：“你刚才那一下刷爆了你们组上半个月的办案经费，魏局又该去医院查高血压了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫抬头向远处张望，但从他这个位置，只能看见满世界的群魔乱舞。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“得了吧，哪次不是我自己贴，说得好像咱们局里经费够用似的。线人呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川说：“过来了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“帅哥今晚一个人呀？”女酒保扭着细腰转了回来，亲手给倒了半杯威士忌，涂成大红的指甲在严峫手背上轻轻一抹，斜睨着眼梢笑道：“你女朋友呢，怎么就敢放你一个人出来？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫嘴角一勾：“这不是没有女朋友么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">明昧灯影令他面部轮廓格外深邃，既像个潇洒的富豪小开，又透出浑厚硬朗的男性气场。女酒保笑得更开心了，就势往他怀里一坐，挂着假黄金螺丝手镯的雪白胳膊就搭上了他肩头：“好巧，我今晚也是一个人呢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">就在她快完全坐下去的当口，一个胖子气喘吁吁地挤出人群，目光四下一扫，落在严峫身上，立刻做了个杀鸡抹脖子的手势。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“忙生意呢，宝贝儿，回来再找你。”严峫一拍女酒保的屁股，藉此把她从自己怀里托了起来，笑得就像个浪荡不经的痞子，刷完卡顺手把还是几乎满瓶的麦卡伦塞进了她波涛汹涌的怀里：“帮我存着。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川：“老严你个流氓故意占人家便宜哈哈哈——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫微笑不变，从嘴角里咬牙切齿：“你客观点，老子这张脸下海挂牌起码五万起，谁占谁便宜？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川：“哈哈哈哈哈哈——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子满头大汗，也不知是热的还是紧张的，踩着震撼的鼓点挤过来，冲着严峫大声对暗号：“夜店头牌小王子？！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”严峫说：“姓秦的老子回去一定要艹死你……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川：“来来来，谁艹死谁，来来！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子讪讪的搓着手，眼睛不是眼睛鼻子不是鼻子。严峫看他确实太紧张了，就扬了扬下巴，示意他喝那杯没沾过的麦卡伦。胖子立马端起来一饮而尽，伸着舌头直呼气，冲他比了个大拇指：“好酒！行，就是干！跟我来！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫站起身，胖子领他从满舞池雪白的胳膊大腿间挤过去，一路上严峫不知道被揩了多少油，只听胖子贴在他耳边问：“秦哥说你要白货？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫冷冷道：“我要的是‘蓝货’。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子不明所以，趴在他耳边说：“我看你是个懂的，但这生意上的道道不是内行人他闹不明白，万一兜不住出了事你就把我害惨了。所以待会见了人，你千万别开口，一切都听我来说，看我的眼色行事；明白的话就点点头，做不到咱们现在立刻就撤，行吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫点点头。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子欲言又止，不放心地上下打量他几眼，终于忍不住问：“你真是吃公家饭的啊？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫反问：“看证件吗？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不用不用。”胖子冲他手上那块表努了努嘴，悻悻道：“仿得……倒跟真货似的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一哂。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他们穿过舞池绚丽的灯光，绕过卡座和一道巨大的屏风，震耳欲聋的音乐顿时小了很多。前方幽暗处火星一闪，严峫骤然停步，这才发现通向二楼的楼梯边站着俩马仔，一个染着现在时下流行的奶奶灰，正低头点烟，另一个染红毛的背着手。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子低声道：“站着别动。”随即迎上前，满脸堆笑地跟那红毛嘀咕了几句。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">耳机里传来秦川的声音：“灰毛那个叫飞龙，红毛外号空仔，都是打手。他们会带你上二楼进行交易，一旦看见‘蓝货’，你就立刻扣响耳机三次发出信号。小心看好交易货款，那可是你自己的钱，待会万一被抢了魏局不会报销的。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫哼了声，表示自己知道了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">就这几秒工夫，红毛跟胖子的沟通出现了问题，大概小小争执了几句，红毛转身连连摆手：“这人是生面孔，你就敢带他来买货？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子：“空哥，这是我发小介绍的，肯定靠谱，特别有钱！……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“没事，这小子确实有钱。”灰毛对红毛小声说：“刚在前面开了个两万多的酒，没找经理，提成直接算吧台账上了，我看他八成就是为了那个小娘皮来的……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">红毛终于被说动了，冲严峫一招手。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫站着没动。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫在这种娱乐场所卧底简直是得天独厚：所有装扮都现成可用且货真价实，卧底期间产生的消费不用报销也不走任何签字流程，最重要的是，他有种老子唯我独尊的嚣张，和进了任何销金窟都游刃有余的熟练，那种让人一看就很想用鞋底板狠狠抽上去的富二代气质是任何卧底都模仿不来的。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">红毛：“叫你呢，喂！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫边抽烟边用“你算哪根葱啊瞎几把指挥老子”的目光瞅了他一眼，红毛眉头一皱，上来就伸手拉他：“过来，不是要害你，过来这站着。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一闪身：“干啥啊，动手动脚的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“搜身，搜身大兄弟！”红毛叫苦道，“你一个新来的，谁都不认识，能就这么放进去吗？搜完了就带你下去看货，放心，用不了两分钟！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一愣，瞥了眼胖子——胖子也明显没想到有搜身这一出，整个脸色瞬间剧变，幸亏这时舞台灯光往边上扫了过去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">秦川在耳麦里问：“怎么了？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫下意识想抬手摘耳麦，但刚一动，就在红毛的目光中硬生生控制住了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“兄弟，配合点，我们也是照章办事。”灰毛弹了弹烟灰，唏嘘道：“这阵子风声紧，前两天说有傻逼high过头在街上抽死了——唉，你说这叫什么事？小弟也是混口饭吃，谁都不容易……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫不引人注意地向后退了半步。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“别跟他啰嗦那么多，他知道什么？” 红毛不耐烦了：“来那个谁，动作快点，下面还有人等着排单呢，你买完了我们也好走人，磨磨唧唧的该不是身上藏东西了吧？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子颤颤巍巍地叫了声：“空，空哥……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——那一声出来，严峫心里就知道要糟。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">果然红毛看看严峫，又瞅瞅胖子，突然就从那格外心虚的调子里咂摸出不对来了：“你怕什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">胖子：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“卧槽，该不会真藏东西了吧？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这下不仅红毛，连灰毛都从沙发上站起来了，互相交换了个狐疑的眼神，随即向前走了过来。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫瞳孔骤然缩紧，短短三秒仿佛突然被抻长。虚空中有根无形的弦越拉越紧，越拉越紧，渐渐发出了逼近临界点的刺耳声——</p><p style="margin-bottom: 1.8em; text-indent: 1em;">怎么办，跑？</p><p style="margin-bottom: 1.8em; text-indent: 1em;">还是打？！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">红毛径直走到面前：“喂，你……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">砰！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">——弦断了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">所有变故都发生在同一秒，不远处卡座上突然爆发出刺耳的欢呼，巨大笑声震耳欲聋，紧接着屏风被人轰然撞开了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">红毛、灰毛和严峫同时回头。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">一道身影背对着他们，醉醺醺地挥手撒出满把钞票。难以计数的粉红大钞在绚丽的灯光下飞舞，配合着炫目的电子礼炮，半个夜店都轰动了，几十个衣着暴露的香槟模特在钞票雨中彼此推搡争抢，纵情尖叫。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“卧……”红毛喃喃道：“卧槽……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">所有人都惊呆了，只见那满场撒钱的浪荡子哈哈大笑，踉跄退后，继而猛地一转身，当场把严峫撞了个踉跄，随即两人同时跌进了卡座里。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“帅哥一个人哪？”那人居高临下地扑在严峫身上，含混不清笑道：“帅哥来亲个，别躲啊，哈哈哈——”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你他妈把我……”严峫混乱的视线余光瞥见两个马仔都追上前，紧接着，那人用力把自己的脸扳了过去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“！！！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">柔软的嘴唇清清楚楚落在了严峫耳廓上，紧接着舌尖灵巧地舔进了耳窝——温软湿热的触感令严峫全身僵住，他意识到了什么，监听麦！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……”严峫的目光一寸一寸转过去，他看见咫尺处江停的脸颊，在灯光交错的阴影中全无一丝醉意，甚至清醒冷静到有些坚硬的地步，紧接着喉间轻轻一动。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他把耳麦吞下去了，严峫想。</p>
-    </article>
-    
-    <nav class="navigation">
-        <a href="chapter_21.html" class="next-link" rel="next">Next Chapter (다음 편) &gt;&gt;</a>
-    </nav>
+    <div id="workskin">
+        <div id="novel_contents">
+            <div id="novel_honbun" class="novel_view">
+                <p id="L1" style="margin-bottom: 1.8em; line-height: 2.0;">不仅审讯室, 连单面玻璃外的几个人都怔住了, 苟利喃喃道：“卧槽？什么情况？”</p>
+<p id="L2" style="margin-bottom: 1.8em; line-height: 2.0;">胡伟胜像是坐在了电椅上, 五官都在奇怪地抽搐，让他本来就不太端正的眉毛眼睛显得更歪斜了，沙哑的喘气清晰可闻：</p>
+<p id="L3" style="margin-bottom: 1.8em; line-height: 2.0;">“姓江的不按规矩办事, 他死有应得，他本来就有这么一天……”</p>
+<p id="L4" style="margin-bottom: 1.8em; line-height: 2.0;">“他兄弟是什么人，警察？检察院还是法院？不按规矩办事指的是什么, 审过你的都有哪些人？恭州系统内是不是有什么不成文的规矩？”</p>
+<p id="L5" style="margin-bottom: 1.8em; line-height: 2.0;">单面玻璃外传来咣咣咣的动静, 秦川一手敲窗，对蓝牙耳机低吼道：“老严！”</p>
+<p id="L6" style="margin-bottom: 1.8em; line-height: 2.0;">严峫置若罔闻, 只见胡伟胜紧紧攥着烟头，咬着牙不停重复：“我不想死, 我没犯死罪，我就是个被带去拿货的。他们不能这样过河拆桥, 杀了姓江的，再来杀……”</p>
+<p id="L7" style="margin-bottom: 1.8em; line-height: 2.0;">“谁带你去拿货？在哪儿拿的？要杀江停的是什么人？”严峫霍然起身，几乎逼近到了胡伟胜面前：“快说！不然把你放出去, 被撞死在高速公路上就是你明天的结局！”</p>
+<p id="L8" style="margin-bottom: 1.8em; line-height: 2.0;">——如果江停在这里, 可能在严峫吼出“把你放出去”的时候，就已经把他下面的话一巴掌抽回去了。</p>
+<p id="L9" style="margin-bottom: 1.8em; line-height: 2.0;">事后严峫回想起来，也很后悔自己当时不管不顾吼除了后半句话。</p>
+<p id="L10" style="margin-bottom: 1.8em; line-height: 2.0;">他本意只是想再最后威吓一下嫌疑人，但事实证明当年警校教科书是无数经验总结出的至理——在刑事审讯这个环节里，任何一点差错, 都有可能造成前功尽弃的结局。</p>
+<p id="L11" style="margin-bottom: 1.8em; line-height: 2.0;">胡伟胜下意识望向严峫面前那张血腥的现场照片：“颐和路‘三春花树’，他们说新货都是从……”</p>
+<p id="L12" style="margin-bottom: 1.8em; line-height: 2.0;">突然他停住了。</p>
+<p id="L13" style="margin-bottom: 1.8em; line-height: 2.0;">严峫眼睁睁看着他脸上的表情急剧变化，犹如一出荒谬的哑剧，从青到红，从红到紫，最终几乎变成铁青，挤出来两个字：</p>
+<p id="L14" style="margin-bottom: 1.8em; line-height: 2.0;">“不对。”</p>
+<p id="L15" style="margin-bottom: 1.8em; line-height: 2.0;">严峫心里一咯噔。</p>
+<p id="L16" style="margin-bottom: 1.8em; line-height: 2.0;">“……骗我……你们骗我……你他妈敢骗老子？”胡伟胜嗫嚅的声音越来越大，突然变成了疯狂的大喊大叫：“你他妈竟敢耍我！这根本不是……老子弄死你！老子他妈的要弄死你这狗日的！你——”</p>
+<p id="L17" style="margin-bottom: 1.8em; line-height: 2.0;">手铐和铁椅一并哐哐作响，刑警见状不对，推开门冲了进去，两三个人同时把脸红脖子粗的胡伟胜强行按住，顿时脏到极点的谩骂和嚎叫从他嘴里迸发出来，混乱的审讯室简直不堪入耳。</p>
+<p id="L18" style="margin-bottom: 1.8em; line-height: 2.0;">“狗X养的条子，从老子骨头里榨油，不得好死……”</p>
+<p id="L19" style="margin-bottom: 1.8em; line-height: 2.0;">“老严？”秦川快步而入：“你没事吧？怎么搞的？”</p>
+<p id="L20" style="margin-bottom: 1.8em; line-height: 2.0;">“……”</p>
+<p id="L21" style="margin-bottom: 1.8em; line-height: 2.0;">严峫盯着眼前那张照片，什么都说不出来，脑海一片空白，只剩潜意识在飞速转动。</p>
+<p id="L22" style="margin-bottom: 1.8em; line-height: 2.0;">不对，哪里不对？</p>
+<p id="L23" style="margin-bottom: 1.8em; line-height: 2.0;">人已经被碾得只剩肉糊了，整个画面几乎看不出任何可以分辨的人体组织，更别提什么体貌特征；画面角落不明显处唯一仅存的半边头颅，还是血呼滋啦的后脑勺对镜头，范四他亲妈来了都不会认得。</p>
+<p id="L24" style="margin-bottom: 1.8em; line-height: 2.0;">胡伟胜明明已经被唬住了，是什么让他突然清楚地分辨出这不对？</p>
+<p id="L25" style="margin-bottom: 1.8em; line-height: 2.0;">画面上的哪一个细节，让他笃定这摊肉酱不是自己的同伙？</p>
+<p id="L26" style="margin-bottom: 1.8em; line-height: 2.0;">“老严！”秦川一巴掌拍在他肩膀上：“干什么呢，你魔怔了！”</p>
+<p id="L27" style="margin-bottom: 1.8em; line-height: 2.0;">砰！</p>
+<p id="L28" style="margin-bottom: 1.8em; line-height: 2.0;">严峫站起身，折叠椅与地面摩擦发出刺耳的声响，只听他说：“我知道了。”</p>
+<p id="L29" style="margin-bottom: 1.8em; line-height: 2.0;">秦川眉头一皱：“……知道什么？”</p>
+<p id="L30" style="margin-bottom: 1.8em; line-height: 2.0;">“她是个女人。”</p>
+<p id="L31" style="margin-bottom: 1.8em; line-height: 2.0;">胡伟胜大叫大骂的动作突然停了。</p>
+<p id="L32" style="margin-bottom: 1.8em; line-height: 2.0;">“这张图上唯一暴露外貌特征的只有短发，而你的同伙，是个长头发的女人。所以冯宇光服食毒品发狂下车时她拉不住他，而你包庇同伙不仅是因为怕她一个女人经不住审，还因为你们之间有感情联系。”严峫一字一顿道，“你喜欢她。”</p>
+<p id="L33" style="margin-bottom: 1.8em; line-height: 2.0;">胡伟胜嘴唇发抖，仿佛刚才暴怒跳脚的换了一个人。</p>
+<p id="L34" style="margin-bottom: 1.8em; line-height: 2.0;">严峫把照片随手往秦川怀里一塞：</p>
+<p id="L35" style="margin-bottom: 1.8em; line-height: 2.0;">“排查重点马上转移到胡伟胜的男女关系上，包括金钱流通、租户来往，身边出现过的手机联系过的任何异性，上到六十下到十六，一个都别放过，立刻！”</p>
+<p id="L36" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L37" style="margin-bottom: 1.8em; line-height: 2.0;">三春花树。</p>
+<p id="L38" style="margin-bottom: 1.8em; line-height: 2.0;">从名字看老板确实已经尽力了，奈何夜店就是夜店，并没有因此稍微多点风雅。舞池闪烁的彩灯光芒四射，吧台前觥筹交错，DJ在二楼摇头晃脑，整个背景旋律强劲如同工地打桩机；在这里别说隐蔽交流，哪怕稍微隔开两步，就连大声吼叫都很难听清了。</p>
+<p id="L39" style="margin-bottom: 1.8em; line-height: 2.0;">“麦卡伦25年，喝纯的，流程都不要了，直接送上来。”严峫顺手将几张钞票插进女酒保性感的深沟里，“给你的。”</p>
+<p id="L40" style="margin-bottom: 1.8em; line-height: 2.0;">女酒保一双媚眼被妆点得楚楚动人，滑溜而老练地往严峫腕表上一扫 ，含笑转身而去。</p>
+<p id="L41" style="margin-bottom: 1.8em; line-height: 2.0;">“执行人已就位，线人正向你处移动。”耳机里爆发出年轻男女放肆的大笑，随即传来秦川的调侃：“你刚才那一下刷爆了你们组上半个月的办案经费，魏局又该去医院查高血压了。”</p>
+<p id="L42" style="margin-bottom: 1.8em; line-height: 2.0;">严峫抬头向远处张望，但从他这个位置，只能看见满世界的群魔乱舞。</p>
+<p id="L43" style="margin-bottom: 1.8em; line-height: 2.0;">“得了吧，哪次不是我自己贴，说得好像咱们局里经费够用似的。线人呢？”</p>
+<p id="L44" style="margin-bottom: 1.8em; line-height: 2.0;">秦川说：“过来了。”</p>
+<p id="L45" style="margin-bottom: 1.8em; line-height: 2.0;">“帅哥今晚一个人呀？”女酒保扭着细腰转了回来，亲手给倒了半杯威士忌，涂成大红的指甲在严峫手背上轻轻一抹，斜睨着眼梢笑道：“你女朋友呢，怎么就敢放你一个人出来？”</p>
+<p id="L46" style="margin-bottom: 1.8em; line-height: 2.0;">严峫嘴角一勾：“这不是没有女朋友么？”</p>
+<p id="L47" style="margin-bottom: 1.8em; line-height: 2.0;">明昧灯影令他面部轮廓格外深邃，既像个潇洒的富豪小开，又透出浑厚硬朗的男性气场。女酒保笑得更开心了，就势往他怀里一坐，挂着假黄金螺丝手镯的雪白胳膊就搭上了他肩头：“好巧，我今晚也是一个人呢。”</p>
+<p id="L48" style="margin-bottom: 1.8em; line-height: 2.0;">就在她快完全坐下去的当口，一个胖子气喘吁吁地挤出人群，目光四下一扫，落在严峫身上，立刻做了个杀鸡抹脖子的手势。</p>
+<p id="L49" style="margin-bottom: 1.8em; line-height: 2.0;">“忙生意呢，宝贝儿，回来再找你。”严峫一拍女酒保的屁股，藉此把她从自己怀里托了起来，笑得就像个浪荡不经的痞子，刷完卡顺手把还是几乎满瓶的麦卡伦塞进了她波涛汹涌的怀里：“帮我存着。”</p>
+<p id="L50" style="margin-bottom: 1.8em; line-height: 2.0;">秦川：“老严你个流氓故意占人家便宜哈哈哈——”</p>
+<p id="L51" style="margin-bottom: 1.8em; line-height: 2.0;">严峫微笑不变，从嘴角里咬牙切齿：“你客观点，老子这张脸下海挂牌起码五万起，谁占谁便宜？”</p>
+<p id="L52" style="margin-bottom: 1.8em; line-height: 2.0;">秦川：“哈哈哈哈哈哈——”</p>
+<p id="L53" style="margin-bottom: 1.8em; line-height: 2.0;">胖子满头大汗，也不知是热的还是紧张的，踩着震撼的鼓点挤过来，冲着严峫大声对暗号：“夜店头牌小王子？！”</p>
+<p id="L54" style="margin-bottom: 1.8em; line-height: 2.0;">“……”严峫说：“姓秦的老子回去一定要艹死你……”</p>
+<p id="L55" style="margin-bottom: 1.8em; line-height: 2.0;">秦川：“来来来，谁艹死谁，来来！”</p>
+<p id="L56" style="margin-bottom: 1.8em; line-height: 2.0;">胖子讪讪的搓着手，眼睛不是眼睛鼻子不是鼻子。严峫看他确实太紧张了，就扬了扬下巴，示意他喝那杯没沾过的麦卡伦。胖子立马端起来一饮而尽，伸着舌头直呼气，冲他比了个大拇指：“好酒！行，就是干！跟我来！”</p>
+<p id="L57" style="margin-bottom: 1.8em; line-height: 2.0;">严峫站起身，胖子领他从满舞池雪白的胳膊大腿间挤过去，一路上严峫不知道被揩了多少油，只听胖子贴在他耳边问：“秦哥说你要白货？”</p>
+<p id="L58" style="margin-bottom: 1.8em; line-height: 2.0;">严峫冷冷道：“我要的是‘蓝货’。”</p>
+<p id="L59" style="margin-bottom: 1.8em; line-height: 2.0;">胖子不明所以，趴在他耳边说：“我看你是个懂的，但这生意上的道道不是内行人他闹不明白，万一兜不住出了事你就把我害惨了。所以待会见了人，你千万别开口，一切都听我来说，看我的眼色行事；明白的话就点点头，做不到咱们现在立刻就撤，行吗？”</p>
+<p id="L60" style="margin-bottom: 1.8em; line-height: 2.0;">严峫点点头。</p>
+<p id="L61" style="margin-bottom: 1.8em; line-height: 2.0;">胖子欲言又止，不放心地上下打量他几眼，终于忍不住问：“你真是吃公家饭的啊？”</p>
+<p id="L62" style="margin-bottom: 1.8em; line-height: 2.0;">严峫反问：“看证件吗？”</p>
+<p id="L63" style="margin-bottom: 1.8em; line-height: 2.0;">“不用不用。”胖子冲他手上那块表努了努嘴，悻悻道：“仿得……倒跟真货似的。”</p>
+<p id="L64" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一哂。</p>
+<p id="L65" style="margin-bottom: 1.8em; line-height: 2.0;">他们穿过舞池绚丽的灯光，绕过卡座和一道巨大的屏风，震耳欲聋的音乐顿时小了很多。前方幽暗处火星一闪，严峫骤然停步，这才发现通向二楼的楼梯边站着俩马仔，一个染着现在时下流行的奶奶灰，正低头点烟，另一个染红毛的背着手。</p>
+<p id="L66" style="margin-bottom: 1.8em; line-height: 2.0;">胖子低声道：“站着别动。”随即迎上前，满脸堆笑地跟那红毛嘀咕了几句。</p>
+<p id="L67" style="margin-bottom: 1.8em; line-height: 2.0;">耳机里传来秦川的声音：“灰毛那个叫飞龙，红毛外号空仔，都是打手。他们会带你上二楼进行交易，一旦看见‘蓝货’，你就立刻扣响耳机三次发出信号。小心看好交易货款，那可是你自己的钱，待会万一被抢了魏局不会报销的。”</p>
+<p id="L68" style="margin-bottom: 1.8em; line-height: 2.0;">严峫哼了声，表示自己知道了。</p>
+<p id="L69" style="margin-bottom: 1.8em; line-height: 2.0;">就这几秒工夫，红毛跟胖子的沟通出现了问题，大概小小争执了几句，红毛转身连连摆手：“这人是生面孔，你就敢带他来买货？”</p>
+<p id="L70" style="margin-bottom: 1.8em; line-height: 2.0;">胖子：“空哥，这是我发小介绍的，肯定靠谱，特别有钱！……”</p>
+<p id="L71" style="margin-bottom: 1.8em; line-height: 2.0;">“没事，这小子确实有钱。”灰毛对红毛小声说：“刚在前面开了个两万多的酒，没找经理，提成直接算吧台账上了，我看他八成就是为了那个小娘皮来的……”</p>
+<p id="L72" style="margin-bottom: 1.8em; line-height: 2.0;">红毛终于被说动了，冲严峫一招手。</p>
+<p id="L73" style="margin-bottom: 1.8em; line-height: 2.0;">严峫站着没动。</p>
+<p id="L74" style="margin-bottom: 1.8em; line-height: 2.0;">严峫在这种娱乐场所卧底简直是得天独厚：所有装扮都现成可用且货真价实，卧底期间产生的消费不用报销也不走任何签字流程，最重要的是，他有种老子唯我独尊的嚣张，和进了任何销金窟都游刃有余的熟练，那种让人一看就很想用鞋底板狠狠抽上去的富二代气质是任何卧底都模仿不来的。</p>
+<p id="L75" style="margin-bottom: 1.8em; line-height: 2.0;">红毛：“叫你呢，喂！”</p>
+<p id="L76" style="margin-bottom: 1.8em; line-height: 2.0;">严峫边抽烟边用“你算哪根葱啊瞎几把指挥老子”的目光瞅了他一眼，红毛眉头一皱，上来就伸手拉他：“过来，不是要害你，过来这站着。”</p>
+<p id="L77" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一闪身：“干啥啊，动手动脚的？”</p>
+<p id="L78" style="margin-bottom: 1.8em; line-height: 2.0;">“搜身，搜身大兄弟！”红毛叫苦道，“你一个新来的，谁都不认识，能就这么放进去吗？搜完了就带你下去看货，放心，用不了两分钟！”</p>
+<p id="L79" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一愣，瞥了眼胖子——胖子也明显没想到有搜身这一出，整个脸色瞬间剧变，幸亏这时舞台灯光往边上扫了过去。</p>
+<p id="L80" style="margin-bottom: 1.8em; line-height: 2.0;">秦川在耳麦里问：“怎么了？”</p>
+<p id="L81" style="margin-bottom: 1.8em; line-height: 2.0;">严峫下意识想抬手摘耳麦，但刚一动，就在红毛的目光中硬生生控制住了。</p>
+<p id="L82" style="margin-bottom: 1.8em; line-height: 2.0;">“兄弟，配合点，我们也是照章办事。”灰毛弹了弹烟灰，唏嘘道：“这阵子风声紧，前两天说有傻逼high过头在街上抽死了——唉，你说这叫什么事？小弟也是混口饭吃，谁都不容易……”</p>
+<p id="L83" style="margin-bottom: 1.8em; line-height: 2.0;">严峫不引人注意地向后退了半步。</p>
+<p id="L84" style="margin-bottom: 1.8em; line-height: 2.0;">“别跟他啰嗦那么多，他知道什么？” 红毛不耐烦了：“来那个谁，动作快点，下面还有人等着排单呢，你买完了我们也好走人，磨磨唧唧的该不是身上藏东西了吧？”</p>
+<p id="L85" style="margin-bottom: 1.8em; line-height: 2.0;">胖子颤颤巍巍地叫了声：“空，空哥……”</p>
+<p id="L86" style="margin-bottom: 1.8em; line-height: 2.0;">——那一声出来，严峫心里就知道要糟。</p>
+<p id="L87" style="margin-bottom: 1.8em; line-height: 2.0;">果然红毛看看严峫，又瞅瞅胖子，突然就从那格外心虚的调子里咂摸出不对来了：“你怕什么？”</p>
+<p id="L88" style="margin-bottom: 1.8em; line-height: 2.0;">胖子：“……”</p>
+<p id="L89" style="margin-bottom: 1.8em; line-height: 2.0;">“卧槽，该不会真藏东西了吧？”</p>
+<p id="L90" style="margin-bottom: 1.8em; line-height: 2.0;">这下不仅红毛，连灰毛都从沙发上站起来了，互相交换了个狐疑的眼神，随即向前走了过来。</p>
+<p id="L91" style="margin-bottom: 1.8em; line-height: 2.0;">严峫瞳孔骤然缩紧，短短三秒仿佛突然被抻长。虚空中有根无形的弦越拉越紧，越拉越紧，渐渐发出了逼近临界点的刺耳声——</p>
+<p id="L92" style="margin-bottom: 1.8em; line-height: 2.0;">怎么办，跑？</p>
+<p id="L93" style="margin-bottom: 1.8em; line-height: 2.0;">还是打？！</p>
+<p id="L94" style="margin-bottom: 1.8em; line-height: 2.0;">红毛径直走到面前：“喂，你……”</p>
+<p id="L95" style="margin-bottom: 1.8em; line-height: 2.0;">砰！</p>
+<p id="L96" style="margin-bottom: 1.8em; line-height: 2.0;">——弦断了。</p>
+<p id="L97" style="margin-bottom: 1.8em; line-height: 2.0;">所有变故都发生在同一秒，不远处卡座上突然爆发出刺耳的欢呼，巨大笑声震耳欲聋，紧接着屏风被人轰然撞开了。</p>
+<p id="L98" style="margin-bottom: 1.8em; line-height: 2.0;">红毛、灰毛和严峫同时回头。</p>
+<p id="L99" style="margin-bottom: 1.8em; line-height: 2.0;">一道身影背对着他们，醉醺醺地挥手撒出满把钞票。难以计数的粉红大钞在绚丽的灯光下飞舞，配合着炫目的电子礼炮，半个夜店都轰动了，几十个衣着暴露的香槟模特在钞票雨中彼此推搡争抢，纵情尖叫。</p>
+<p id="L100" style="margin-bottom: 1.8em; line-height: 2.0;">“卧……”红毛喃喃道：“卧槽……”</p>
+<p id="L101" style="margin-bottom: 1.8em; line-height: 2.0;">所有人都惊呆了，只见那满场撒钱的浪荡子哈哈大笑，踉跄退后，继而猛地一转身，当场把严峫撞了个踉跄，随即两人同时跌进了卡座里。</p>
+<p id="L102" style="margin-bottom: 1.8em; line-height: 2.0;">“帅哥一个人哪？”那人居高临下地扑在严峫身上，含混不清笑道：“帅哥来亲个，别躲啊，哈哈哈——”</p>
+<p id="L103" style="margin-bottom: 1.8em; line-height: 2.0;">“你他妈把我……”严峫混乱的视线余光瞥见两个马仔都追上前，紧接着，那人用力把自己的脸扳了过去。</p>
+<p id="L104" style="margin-bottom: 1.8em; line-height: 2.0;">“！！！”</p>
+<p id="L105" style="margin-bottom: 1.8em; line-height: 2.0;">柔软的嘴唇清清楚楚落在了严峫耳廓上，紧接着舌尖灵巧地舔进了耳窝——温软湿热的触感令严峫全身僵住，他意识到了什么，监听麦！</p>
+<p id="L106" style="margin-bottom: 1.8em; line-height: 2.0;">“……”严峫的目光一寸一寸转过去，他看见咫尺处江停的脸颊，在灯光交错的阴影中全无一丝醉意，甚至清醒冷静到有些坚硬的地步，紧接着喉间轻轻一动。</p>
+<p id="L107" style="margin-bottom: 1.8em; line-height: 2.0;">他把耳麦吞下去了，严峫想。</p>
+
+            </div>
+            
+            <div class="novel_bn">
+                <a href="chapter_21.html" class="next" rel="next">Next Chapter (다음 장) >></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
         
