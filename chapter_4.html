@@ -6,49 +6,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 4</title>
     <style>
-        /* AO3와 유사한 쾌적한 독서 환경 설정 */
         body { 
-            font-family: "Noto Sans SC", sans-serif; 
-            line-height: 2.2; 
-            padding: 5% 10%; 
-            max-width: 900px; 
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "GNU Unifont", Verdana, sans-serif; 
+            padding: 50px 20px; 
+            max-width: 800px; 
             margin: 0 auto; 
-            background-color: #ffffff; 
-            color: #2a2a2a;
+            background-color: #f7f7f7; 
+            color: #333;
         }
-        /* 콜로모가 가장 선호하는 본문 선택자들 */
-        #novel_honbun, .userstuff, .chapter-content { 
-            font-size: 1.15rem; 
-            word-break: break-all;
+        #workskin { 
+            background: #fff; 
+            padding: 50px; 
+            border: 1px solid #ddd; 
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1); 
         }
-        .navigation { 
-            text-align: center; 
-            margin-top: 100px; 
-            padding: 40px 0; 
-            border-top: 1px solid #eee; 
-        }
-        .next-link { 
+        #novel_honbun { font-size: 18px; word-break: break-all; }
+        /* Colomo 버튼 스타일 */
+        .novel_bn { text-align: center; margin-top: 100px; padding-top: 50px; border-top: 1px dotted #ccc; }
+        .novel_bn a.next { 
             display: inline-block; 
-            padding: 15px 30px; 
-            background: #900; /* AO3 느낌의 붉은색 포인트 */
+            padding: 12px 30px; 
+            background-color: #900; /* 아오삼 느낌의 붉은 계열 버튼 */
             color: white !important; 
             text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
+            border-radius: 4px; 
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header><h1>제 4 장</h1></header>
-    <hr>
-    
-    <article id="novel_honbun" class="userstuff chapter-content">
-        <p style="margin-bottom: 1.8em; text-indent: 1em;">这个街口离不夜宫KTV只有四五百米了，严峫索性找了个地儿，把他剐蹭严重的大切停了，再跟交警大队打好招呼，回来原地，总共只用了十分钟。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“你怎么回事？”严峫站在江停面前扬了扬下巴，“那个女朋友呢，没事让你一人出来乱跑？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停脸色仍然不是很好，但那是长期卧床气血不足的缘故，闻言笑了笑：“医生让我没事多走走，杨媚出去了，我就自己出门转转。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫伸手欲扶，却被江停示意不用，于是收回来点了根烟，“不介意吧？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停问：“能给我一根么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫有点意外。他接触的不抽烟的男人很少，但不知为何，下意识就觉得江停是其中之一，大概是被对方儒雅斯文的表象欺骗了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“谢谢，”江停接过烟来点着了，长长吁了口气：“刚才多亏了严警官，真是不好意思。修车费的事……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫说：“得了，我那是公车！回去报个损就完了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停从香烟的白雾中瞥了他一眼，那意思大概是没想到建宁公安配车竟然这么高档。严峫被他看得笑了起来，也没解释，说：“正好案情有些疑点，我要去复勘现场，顺道送你回去吧。刚才是怎么了，站在马路中间一动不动，吓傻了不成？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停迟疑了一下：“刚才……看到车祸有点蒙。可能有些创伤后应激反应吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“哟，那你还敢一个人出来。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停说：“总要学会独自走路吧，不然不成废人了么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他走得很慢，严峫也不催，两人顺着人行道慢慢走下去，不夜宫KYV的霓虹灯在前方闪闪发光。严峫用快要燃尽的烟头指了指，揶揄道：“你有那么个痴心又有钱的女朋友，可比我们拿死工资的好多了，怕什么变成废人啊。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停无奈地摇了摇头，还没回话就听严峫接着十分自然地问：“你们怎么认识的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严副队套话不是盖的，敢情在这等着呢。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我们也是早年一块从县城出来打工，在恭州混了几年，我赚点钱就回老家去了，她从恭州来建宁开了这家KTV。说来她比我敢拼，店里生意越来越好，三年前她让我上建宁来帮忙的时候，路上我就出了车祸。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么出的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“下雨超速，差点就没命了。”江停叹了口气：“说是女朋友，但我这个样子，也不好连累人家，是不是？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫竟然立刻就赞同：“那是。你俩以后怎么办呢，就拖着？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“过段时间分了吧，”江停笑道，“我留在这里也帮不上什么忙，回县城过日子算了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">KTV因为命案现场的原因暂停营业了，大门冷冷清清地虚掩着。两人一边说话一边进了门，抬头就只见杨媚在吧台前翘首以盼：“江哥！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停：“哦，我……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚满眼的喜悦几乎要飞出去了：“哎呀可把我吓得，江哥你上哪去了？怎么也不打声招呼？外面那么多车你怎能一个人乱走？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我等了你半天，怎么打手机也不接？小张呢，小张怎么不跟着你一起出去？万一出什么事可怎么办？快，快坐下，这么晚你吃了吗？吃了什么？哎领班过来，去跟厨房说把我刚才让蒸的鸡蛋羹端过来！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停：“…………”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫挑起眉梢，含笑不语。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚简直是围着他转个不停，江停只得匆匆应付过去，把刚才在路上遇到严峫的事说了。杨媚立刻对严警官感激得不行，一边推着江停催他上楼吃饭，一边非要亲自做东请严峫出去吃。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“不用了，我就来看看现场，待会还要赶回市局。”严峫微笑道：“你们忙吧，叫个服务员来带我去后厨就行。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚立刻把包和鞋放下了：“我哪有什么好忙的？来来，我带您去。昨天这里围上警戒线以后我就让人把后厨封锁了，不是说要配合警方工作吗？我还三令五申让服务员都不准到外面乱说话呢，就怕泄露了你们警察办案的机密。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫戴上鞋套和手套：“不用，反正你也不知道什么机密。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚站在后厨门口赔笑。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">浓妆让人看不出她的年龄，但五官衣装都是美的，精致的卷发间甚至还喷了点香水——严峫从没见过女人在自己家楼下还能如此精心装扮，唯一的解释是她知道江停会回来。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫觉得很有意思。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">这个女人很灵活，会说话，处事带着长期混迹三教九流的圆滑。而她那据说出身于小县城的未婚夫，不仅只会务工、身体孱弱，还卧床数年，几乎没什么劳动力。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不论从那方面看两人都是很不般配的，但杨媚面对他的时候，却自然而然带着仰视的角度。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫目光落在冰柜上，刹那间回想起刚才给江停香烟的片段——后者接过来，微低下头，脖颈侧影弯成一道优雅的弧度，就着他手上的打火机点燃了烟，轻轻吐出一口气 。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">那似乎是一个很习惯被人敬烟的动作。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫打开冰柜门，漫不经心地问：“你跟你男朋友感情挺好？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚笑着默认。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么认识的？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我们早年一块从县城出来打工，在恭州混了几年他就回老家去了。后来我上建宁开了这家店，生意越做越大，就想让他来帮忙，没想到半路上出了车祸。”杨媚不胜感慨地叹了口气：“说起来，他现在这样也是我的责任呐！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫也唏嘘着摇了摇头，顺手关上冰柜门，穿过厨房向后门走去。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“您这是……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“啊，我去马路上看看，不用跟过来了。”严峫头也不回地挥了挥手：“你忙你的去吧。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">肮脏狭小的后巷没什么人，KTV今天不营业，显得更加冷清。昨天技侦在这里来来回回掘地三尺，连垃圾箱都翻了个底朝天，基本已经没什么复勘价值了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一边拿手机拨了个号，一边顺着监控录像里死者的来路向外走去：“喂，马翔你们回队了没？登内网帮我查个人。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">电话那边乱糟糟的，应该是技侦在加班。马翔扯着大嗓门问：“好嘞——查谁？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“陆成江。”严峫说，“就是昨晚现场那个坐轮椅上的，查他的籍贯、毕业学校、务工经历，开房记录如果有也一并查了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么，这人有嫌疑？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“暂时看不出来，先查。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔最大的好处就是麻利，严峫走出后巷，来回逡巡空旷的小道，顺着马路牙子边搜索边往下走，没过片刻就只听电话里说：“有了——陆成江，籍贯信息跟昨晚笔录上的一致，大专学历，在恭州待过几年，跟那个叫杨媚的一块在夜总会里看场子。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫动作一顿，显见非常意外，“确定是同一个人？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“确定，户籍网上写着呢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……后来怎么样了？”严峫追问。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“后来啊，那杨媚在夜总会掺和进了几个聚众赌博和打架的案子，具体细节得查恭州那边的案卷。不过她运气好，一个故意伤害被撤诉了，一个容留赌博被取保候审了，我看看……哟，可以啊，估计钱没少花，在恭州取保候审可不容易。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫问：“那陆成江呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“在她第一次涉嫌故意伤害的时候就回老家了，看起来两人不像是那么情深义重的样子。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫又点了根烟，顺着死者昨晚的脚步，若有所思盯着人行道地砖的花纹。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“那陆成江在老家的事得去原籍查，不过三年前那场车祸跟他自己说的一样。杨媚嘛，第二次取保候审以后就来建宁，盘下了这家KTV，因为产业合同还跟原房东打了个官司，竟然很快又赢了。我去严哥，这女的不是上头有靠山就是命里带鸿字，每次都能化险为夷？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">天色渐渐暗了下来，路灯接二连三亮起，严峫从远处收回视线，突然几步以外的下水道沟边，有什么东西闪过了一道微渺的光。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">开始严峫没注意，几秒钟后，十多年来一线刑侦工作形成的某种直觉突然在脑海中轻轻叩响。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“严哥？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……等等。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫走上前，蹲下身，只见人行道和单行车道的夹角边，灰尘里静静躺着一个铮亮的小东西——</p><p style="margin-bottom: 1.8em; text-indent: 1em;">拉链滑楔头。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫用两根手指捡起它，对着光打量这一小片半裹皮革的金属，眯起了眼睛。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“怎么严哥，现场复勘有发现？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“去查杨媚后来在建宁的官司案卷，让技侦在办公室别走。”严峫站起身，把拉链头装进证物袋，说：“半小时后我回市局，现场有重大发现，如果查实将成为突破性线索。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“好嘞！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫挂断电话，一转身，所有动作霎时顿住。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不远处后巷边，江停静静站在路灯下，手里提着一只外卖的大塑料袋。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人对视半晌，远处大街上的车声近而又远，飞蛾一下下撞击路灯，发出轻微的噗噗声响。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停走上前，把尚且还热的塑料袋递到严峫手里，柔和地道：</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“严警官，别太晚吃饭。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">他的视线滑过透明证物袋里的拉链滑楔头，随即指尖与严峫的手一触即分。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">两人面对面站着，相距不到半尺。严峫从江停浅色的瞳孔里看见了自己的倒影，随即意识到自己下颔肌肉正绷得极紧，以至于从本能中流露出了如临大敌般的厉色。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">但这其实是很奇怪的。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">眼前这人满面掩饰不住的病气，跟威胁二字差得太远了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……知道了。”严峫退后半步，掩饰似的沉下脸，一点头：“谢谢。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停袖手站在原地，微笑颔首不语，目送严峫转过身，在路灯下渐渐走远。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">高跟鞋敲击地面的声音从小巷中传来，杨媚停在江停身后，望着严峫消失在马路尽头，又担忧地看向江停：“你要帮他查这个案子么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停眉眼间温水一样的流光已经没有了，语调平平淡淡地：“案子不破，警方的注意力不会撤，你想被警察一盯好几个月？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“……那，”杨媚欲言又止，转而问：“那你想怎么查？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">江停垂下眼帘，没有立刻回答，似乎在沉思什么。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚裹了裹薄披肩，仰头看着路灯晕黄的光铺在江停的头发和侧颊上，宛如一层质地细腻的浅金薄纱。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">不管过去多少年，杨媚眼中的江停都和初见时没什么区别。颠沛流离的岁月和险死还生的磨难，都没有夺去他足以面对任何情况的，压倒一切的慎密。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“拉链，”江停喃喃道。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚眼错不眨看着他。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">突然江停一抬眼：“你有东西想卖给二手店么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚：“二手店？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">·</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“Fendi？”马翔接过证物袋里的拉链，对着灯光一照，愕然道。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫唏哩呼噜地吃着外卖鳗鱼饭：“嗯哼。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">拉链头上半部分是黑色羊皮，边缘包着黄色油边，下半部分金属则烫着FENDI的文字LOGO。整体还很新，尾部和滑楔相连的小环扣接口处却松了，应该是用力拉扯或挂在哪里之后硬扯下来的。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔有点疑惑：“这能证明什么？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫一手捏着油腻腻的筷子，把办公桌上的电脑屏幕推了个角度，示意他看FENDI官网。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔：“啥？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“黑羊皮包黄油边这种配色的拉锁，基本只用在他们这一季新出的男款双肩背上。看到没有，就是这款。”严峫用筷子点了点其中一张图片，点击放大，说：“鉴于季节款刚发售不久，销售量有限，而且奢侈品店都是会记录顾客信息的，我已经让一组的人去国际金融中心那家专卖店调取监控录像了。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔说：“卧槽，这也行？！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“行不行也就是跑一趟的事，万一赌错了也不损失什么。我让你查的杨媚的案卷呢？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔目瞪口呆，半晌才反应过来，连忙把牛皮纸袋双手呈上。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫向后靠在椅背里，打开案卷开始翻阅，马翔立刻偷偷拣了块鳗鱼放进嘴里，好吃得双目飙泪。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">杨媚这个案子不复杂，本质上是签字前原店主突然涨价并毁约，杨媚一怒之下把对方告上了法庭。但因为合同本身有漏洞且手续不完善的关系，她极有可能输掉官司，而且会被拖进漫长冗杂的申诉程序里；以严峫半个内行人的眼光来看，杨媚最好在开庭前撤诉认栽，否则很可能既耽误生意又赔掉一大笔钱。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">然而她赢了。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">跟律师没关系，至少严峫看完庭审记录后并不觉得那律师顶什么鸟用，唯一能解释的是法官当庭爱上了杨媚的绝世美色。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">或者，就像这个女人在恭州两次奇迹般逃脱牢狱之灾那样，某个高高在上又隐藏在重重迷雾后的人，再次出手帮助了她。</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔第三次偷偷摸摸伸向鳗鱼，紧接着被严峫闪电般一筷子敲在了手背上：“哎哟！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“两包方便面都不够你吃？小心重复隔壁苟主任的悲剧，他那身材就是他妈天天加餐加出来的！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔感到十分委屈：“我们广大人民群众天天加班方便面，最好也就一自热火锅，你身为领导不身先士卒就算了，还在这开资本主义的小灶？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫哼道：“老子凭美色换来的小灶，有本事你也骗一个去。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔：“什么？那KTV老板娘果真看上你英俊的容颜了？！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫：“……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“我就说昨儿她看你眼神都不对！一个劲在你强健的胸肌和肱二头肌上徘徊！她那文弱的小白脸男朋友哪比得上你这雄性荷尔蒙，严哥努把力，咱兄弟以后能不能唱免费K就看你的了！……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫怒道：“快滚，别逼逼我的肱二头肌，你想被人说咱俩是一对给吗？！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔立刻柔情似水：“给我吃鳗鱼饭，我可以当十分钟的给……”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫悍然一脚把他踹下桌，后者表示自己粉红色的玻璃心碎了一地。正吵嚷时电话响了，严峫一手捂住鳗鱼饭一手接了电话：“喂？我严峫，有事快说。”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“严哥，我们在国际金融中心这边查到了监控！四月中旬死者曾到FENDI专卖店买了你说的那个男款双肩背包，售价一万八，付现，高清图像和销售记录都调出来了！”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">马翔这没见过世面的直男，眼当场就圆了，满脸写着what，一万八？！</p><p style="margin-bottom: 1.8em; text-indent: 1em;">严峫夸了句：“利索。死者留下的身份信息出来没有？”</p><p style="margin-bottom: 1.8em; text-indent: 1em;">“有有有，”电话那头悉悉索索翻了会儿，大概是在找身份登记卡，片刻后声音再次响起：“就是这张——名字叫楚慈，慈悲的慈。”</p>
-    </article>
-    
-    <nav class="navigation">
-        <a href="chapter_5.html" class="next-link" rel="next">Next Chapter (다음 편) &gt;&gt;</a>
-    </nav>
+    <div id="workskin">
+        <div id="novel_contents">
+            <div id="novel_honbun" class="novel_view">
+                <p id="L1" style="margin-bottom: 1.8em; line-height: 2.0;">这个街口离不夜宫KTV只有四五百米了，严峫索性找了个地儿，把他剐蹭严重的大切停了，再跟交警大队打好招呼，回来原地，总共只用了十分钟。</p>
+<p id="L2" style="margin-bottom: 1.8em; line-height: 2.0;">“你怎么回事？”严峫站在江停面前扬了扬下巴，“那个女朋友呢，没事让你一人出来乱跑？”</p>
+<p id="L3" style="margin-bottom: 1.8em; line-height: 2.0;">江停脸色仍然不是很好，但那是长期卧床气血不足的缘故，闻言笑了笑：“医生让我没事多走走，杨媚出去了，我就自己出门转转。”</p>
+<p id="L4" style="margin-bottom: 1.8em; line-height: 2.0;">严峫伸手欲扶，却被江停示意不用，于是收回来点了根烟，“不介意吧？”</p>
+<p id="L5" style="margin-bottom: 1.8em; line-height: 2.0;">江停问：“能给我一根么？”</p>
+<p id="L6" style="margin-bottom: 1.8em; line-height: 2.0;">严峫有点意外。他接触的不抽烟的男人很少，但不知为何，下意识就觉得江停是其中之一，大概是被对方儒雅斯文的表象欺骗了。</p>
+<p id="L7" style="margin-bottom: 1.8em; line-height: 2.0;">“谢谢，”江停接过烟来点着了，长长吁了口气：“刚才多亏了严警官，真是不好意思。修车费的事……”</p>
+<p id="L8" style="margin-bottom: 1.8em; line-height: 2.0;">严峫说：“得了，我那是公车！回去报个损就完了。”</p>
+<p id="L9" style="margin-bottom: 1.8em; line-height: 2.0;">江停从香烟的白雾中瞥了他一眼，那意思大概是没想到建宁公安配车竟然这么高档。严峫被他看得笑了起来，也没解释，说：“正好案情有些疑点，我要去复勘现场，顺道送你回去吧。刚才是怎么了，站在马路中间一动不动，吓傻了不成？”</p>
+<p id="L10" style="margin-bottom: 1.8em; line-height: 2.0;">江停迟疑了一下：“刚才……看到车祸有点蒙。可能有些创伤后应激反应吧。”</p>
+<p id="L11" style="margin-bottom: 1.8em; line-height: 2.0;">“哟，那你还敢一个人出来。”</p>
+<p id="L12" style="margin-bottom: 1.8em; line-height: 2.0;">江停说：“总要学会独自走路吧，不然不成废人了么？”</p>
+<p id="L13" style="margin-bottom: 1.8em; line-height: 2.0;">他走得很慢，严峫也不催，两人顺着人行道慢慢走下去，不夜宫KYV的霓虹灯在前方闪闪发光。严峫用快要燃尽的烟头指了指，揶揄道：“你有那么个痴心又有钱的女朋友，可比我们拿死工资的好多了，怕什么变成废人啊。”</p>
+<p id="L14" style="margin-bottom: 1.8em; line-height: 2.0;">江停无奈地摇了摇头，还没回话就听严峫接着十分自然地问：“你们怎么认识的？”</p>
+<p id="L15" style="margin-bottom: 1.8em; line-height: 2.0;">严副队套话不是盖的，敢情在这等着呢。</p>
+<p id="L16" style="margin-bottom: 1.8em; line-height: 2.0;">“我们也是早年一块从县城出来打工，在恭州混了几年，我赚点钱就回老家去了，她从恭州来建宁开了这家KTV。说来她比我敢拼，店里生意越来越好，三年前她让我上建宁来帮忙的时候，路上我就出了车祸。”</p>
+<p id="L17" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么出的？”</p>
+<p id="L18" style="margin-bottom: 1.8em; line-height: 2.0;">“下雨超速，差点就没命了。”江停叹了口气：“说是女朋友，但我这个样子，也不好连累人家，是不是？”</p>
+<p id="L19" style="margin-bottom: 1.8em; line-height: 2.0;">严峫竟然立刻就赞同：“那是。你俩以后怎么办呢，就拖着？”</p>
+<p id="L20" style="margin-bottom: 1.8em; line-height: 2.0;">“过段时间分了吧，”江停笑道，“我留在这里也帮不上什么忙，回县城过日子算了。”</p>
+<p id="L21" style="margin-bottom: 1.8em; line-height: 2.0;">KTV因为命案现场的原因暂停营业了，大门冷冷清清地虚掩着。两人一边说话一边进了门，抬头就只见杨媚在吧台前翘首以盼：“江哥！”</p>
+<p id="L22" style="margin-bottom: 1.8em; line-height: 2.0;">江停：“哦，我……”</p>
+<p id="L23" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚满眼的喜悦几乎要飞出去了：“哎呀可把我吓得，江哥你上哪去了？怎么也不打声招呼？外面那么多车你怎能一个人乱走？”</p>
+<p id="L24" style="margin-bottom: 1.8em; line-height: 2.0;">江停：“……”</p>
+<p id="L25" style="margin-bottom: 1.8em; line-height: 2.0;">“我等了你半天，怎么打手机也不接？小张呢，小张怎么不跟着你一起出去？万一出什么事可怎么办？快，快坐下，这么晚你吃了吗？吃了什么？哎领班过来，去跟厨房说把我刚才让蒸的鸡蛋羹端过来！”</p>
+<p id="L26" style="margin-bottom: 1.8em; line-height: 2.0;">江停：“…………”</p>
+<p id="L27" style="margin-bottom: 1.8em; line-height: 2.0;">严峫挑起眉梢，含笑不语。</p>
+<p id="L28" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚简直是围着他转个不停，江停只得匆匆应付过去，把刚才在路上遇到严峫的事说了。杨媚立刻对严警官感激得不行，一边推着江停催他上楼吃饭，一边非要亲自做东请严峫出去吃。</p>
+<p id="L29" style="margin-bottom: 1.8em; line-height: 2.0;">“不用了，我就来看看现场，待会还要赶回市局。”严峫微笑道：“你们忙吧，叫个服务员来带我去后厨就行。”</p>
+<p id="L30" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚立刻把包和鞋放下了：“我哪有什么好忙的？来来，我带您去。昨天这里围上警戒线以后我就让人把后厨封锁了，不是说要配合警方工作吗？我还三令五申让服务员都不准到外面乱说话呢，就怕泄露了你们警察办案的机密。”</p>
+<p id="L31" style="margin-bottom: 1.8em; line-height: 2.0;">严峫戴上鞋套和手套：“不用，反正你也不知道什么机密。”</p>
+<p id="L32" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚站在后厨门口赔笑。</p>
+<p id="L33" style="margin-bottom: 1.8em; line-height: 2.0;">浓妆让人看不出她的年龄，但五官衣装都是美的，精致的卷发间甚至还喷了点香水——严峫从没见过女人在自己家楼下还能如此精心装扮，唯一的解释是她知道江停会回来。</p>
+<p id="L34" style="margin-bottom: 1.8em; line-height: 2.0;">严峫觉得很有意思。</p>
+<p id="L35" style="margin-bottom: 1.8em; line-height: 2.0;">这个女人很灵活，会说话，处事带着长期混迹三教九流的圆滑。而她那据说出身于小县城的未婚夫，不仅只会务工、身体孱弱，还卧床数年，几乎没什么劳动力。</p>
+<p id="L36" style="margin-bottom: 1.8em; line-height: 2.0;">不论从那方面看两人都是很不般配的，但杨媚面对他的时候，却自然而然带着仰视的角度。</p>
+<p id="L37" style="margin-bottom: 1.8em; line-height: 2.0;">严峫目光落在冰柜上，刹那间回想起刚才给江停香烟的片段——后者接过来，微低下头，脖颈侧影弯成一道优雅的弧度，就着他手上的打火机点燃了烟，轻轻吐出一口气 。</p>
+<p id="L38" style="margin-bottom: 1.8em; line-height: 2.0;">那似乎是一个很习惯被人敬烟的动作。</p>
+<p id="L39" style="margin-bottom: 1.8em; line-height: 2.0;">严峫打开冰柜门，漫不经心地问：“你跟你男朋友感情挺好？”</p>
+<p id="L40" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚笑着默认。</p>
+<p id="L41" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么认识的？”</p>
+<p id="L42" style="margin-bottom: 1.8em; line-height: 2.0;">“我们早年一块从县城出来打工，在恭州混了几年他就回老家去了。后来我上建宁开了这家店，生意越做越大，就想让他来帮忙，没想到半路上出了车祸。”杨媚不胜感慨地叹了口气：“说起来，他现在这样也是我的责任呐！”</p>
+<p id="L43" style="margin-bottom: 1.8em; line-height: 2.0;">严峫也唏嘘着摇了摇头，顺手关上冰柜门，穿过厨房向后门走去。</p>
+<p id="L44" style="margin-bottom: 1.8em; line-height: 2.0;">“您这是……”</p>
+<p id="L45" style="margin-bottom: 1.8em; line-height: 2.0;">“啊，我去马路上看看，不用跟过来了。”严峫头也不回地挥了挥手：“你忙你的去吧。”</p>
+<p id="L46" style="margin-bottom: 1.8em; line-height: 2.0;">肮脏狭小的后巷没什么人，KTV今天不营业，显得更加冷清。昨天技侦在这里来来回回掘地三尺，连垃圾箱都翻了个底朝天，基本已经没什么复勘价值了。</p>
+<p id="L47" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一边拿手机拨了个号，一边顺着监控录像里死者的来路向外走去：“喂，马翔你们回队了没？登内网帮我查个人。”</p>
+<p id="L48" style="margin-bottom: 1.8em; line-height: 2.0;">电话那边乱糟糟的，应该是技侦在加班。马翔扯着大嗓门问：“好嘞——查谁？”</p>
+<p id="L49" style="margin-bottom: 1.8em; line-height: 2.0;">“陆成江。”严峫说，“就是昨晚现场那个坐轮椅上的，查他的籍贯、毕业学校、务工经历，开房记录如果有也一并查了。”</p>
+<p id="L50" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么，这人有嫌疑？”</p>
+<p id="L51" style="margin-bottom: 1.8em; line-height: 2.0;">“暂时看不出来，先查。”</p>
+<p id="L52" style="margin-bottom: 1.8em; line-height: 2.0;">马翔最大的好处就是麻利，严峫走出后巷，来回逡巡空旷的小道，顺着马路牙子边搜索边往下走，没过片刻就只听电话里说：“有了——陆成江，籍贯信息跟昨晚笔录上的一致，大专学历，在恭州待过几年，跟那个叫杨媚的一块在夜总会里看场子。”</p>
+<p id="L53" style="margin-bottom: 1.8em; line-height: 2.0;">严峫动作一顿，显见非常意外，“确定是同一个人？”</p>
+<p id="L54" style="margin-bottom: 1.8em; line-height: 2.0;">“确定，户籍网上写着呢。”</p>
+<p id="L55" style="margin-bottom: 1.8em; line-height: 2.0;">“……后来怎么样了？”严峫追问。</p>
+<p id="L56" style="margin-bottom: 1.8em; line-height: 2.0;">“后来啊，那杨媚在夜总会掺和进了几个聚众赌博和打架的案子，具体细节得查恭州那边的案卷。不过她运气好，一个故意伤害被撤诉了，一个容留赌博被取保候审了，我看看……哟，可以啊，估计钱没少花，在恭州取保候审可不容易。”</p>
+<p id="L57" style="margin-bottom: 1.8em; line-height: 2.0;">严峫问：“那陆成江呢？”</p>
+<p id="L58" style="margin-bottom: 1.8em; line-height: 2.0;">“在她第一次涉嫌故意伤害的时候就回老家了，看起来两人不像是那么情深义重的样子。”</p>
+<p id="L59" style="margin-bottom: 1.8em; line-height: 2.0;">严峫又点了根烟，顺着死者昨晚的脚步，若有所思盯着人行道地砖的花纹。</p>
+<p id="L60" style="margin-bottom: 1.8em; line-height: 2.0;">“那陆成江在老家的事得去原籍查，不过三年前那场车祸跟他自己说的一样。杨媚嘛，第二次取保候审以后就来建宁，盘下了这家KTV，因为产业合同还跟原房东打了个官司，竟然很快又赢了。我去严哥，这女的不是上头有靠山就是命里带鸿字，每次都能化险为夷？”</p>
+<p id="L61" style="margin-bottom: 1.8em; line-height: 2.0;">天色渐渐暗了下来，路灯接二连三亮起，严峫从远处收回视线，突然几步以外的下水道沟边，有什么东西闪过了一道微渺的光。</p>
+<p id="L62" style="margin-bottom: 1.8em; line-height: 2.0;">开始严峫没注意，几秒钟后，十多年来一线刑侦工作形成的某种直觉突然在脑海中轻轻叩响。</p>
+<p id="L63" style="margin-bottom: 1.8em; line-height: 2.0;">“严哥？”</p>
+<p id="L64" style="margin-bottom: 1.8em; line-height: 2.0;">“……等等。”</p>
+<p id="L65" style="margin-bottom: 1.8em; line-height: 2.0;">严峫走上前，蹲下身，只见人行道和单行车道的夹角边，灰尘里静静躺着一个铮亮的小东西——</p>
+<p id="L66" style="margin-bottom: 1.8em; line-height: 2.0;">拉链滑楔头。</p>
+<p id="L67" style="margin-bottom: 1.8em; line-height: 2.0;">严峫用两根手指捡起它，对着光打量这一小片半裹皮革的金属，眯起了眼睛。</p>
+<p id="L68" style="margin-bottom: 1.8em; line-height: 2.0;">“怎么严哥，现场复勘有发现？”</p>
+<p id="L69" style="margin-bottom: 1.8em; line-height: 2.0;">“去查杨媚后来在建宁的官司案卷，让技侦在办公室别走。”严峫站起身，把拉链头装进证物袋，说：“半小时后我回市局，现场有重大发现，如果查实将成为突破性线索。”</p>
+<p id="L70" style="margin-bottom: 1.8em; line-height: 2.0;">“好嘞！”</p>
+<p id="L71" style="margin-bottom: 1.8em; line-height: 2.0;">严峫挂断电话，一转身，所有动作霎时顿住。</p>
+<p id="L72" style="margin-bottom: 1.8em; line-height: 2.0;">不远处后巷边，江停静静站在路灯下，手里提着一只外卖的大塑料袋。</p>
+<p id="L73" style="margin-bottom: 1.8em; line-height: 2.0;">两人对视半晌，远处大街上的车声近而又远，飞蛾一下下撞击路灯，发出轻微的噗噗声响。</p>
+<p id="L74" style="margin-bottom: 1.8em; line-height: 2.0;">江停走上前，把尚且还热的塑料袋递到严峫手里，柔和地道：</p>
+<p id="L75" style="margin-bottom: 1.8em; line-height: 2.0;">“严警官，别太晚吃饭。”</p>
+<p id="L76" style="margin-bottom: 1.8em; line-height: 2.0;">他的视线滑过透明证物袋里的拉链滑楔头，随即指尖与严峫的手一触即分。</p>
+<p id="L77" style="margin-bottom: 1.8em; line-height: 2.0;">两人面对面站着，相距不到半尺。严峫从江停浅色的瞳孔里看见了自己的倒影，随即意识到自己下颔肌肉正绷得极紧，以至于从本能中流露出了如临大敌般的厉色。</p>
+<p id="L78" style="margin-bottom: 1.8em; line-height: 2.0;">但这其实是很奇怪的。</p>
+<p id="L79" style="margin-bottom: 1.8em; line-height: 2.0;">眼前这人满面掩饰不住的病气，跟威胁二字差得太远了。</p>
+<p id="L80" style="margin-bottom: 1.8em; line-height: 2.0;">“……知道了。”严峫退后半步，掩饰似的沉下脸，一点头：“谢谢。”</p>
+<p id="L81" style="margin-bottom: 1.8em; line-height: 2.0;">江停袖手站在原地，微笑颔首不语，目送严峫转过身，在路灯下渐渐走远。</p>
+<p id="L82" style="margin-bottom: 1.8em; line-height: 2.0;">高跟鞋敲击地面的声音从小巷中传来，杨媚停在江停身后，望着严峫消失在马路尽头，又担忧地看向江停：“你要帮他查这个案子么？”</p>
+<p id="L83" style="margin-bottom: 1.8em; line-height: 2.0;">江停眉眼间温水一样的流光已经没有了，语调平平淡淡地：“案子不破，警方的注意力不会撤，你想被警察一盯好几个月？”</p>
+<p id="L84" style="margin-bottom: 1.8em; line-height: 2.0;">“……那，”杨媚欲言又止，转而问：“那你想怎么查？”</p>
+<p id="L85" style="margin-bottom: 1.8em; line-height: 2.0;">江停垂下眼帘，没有立刻回答，似乎在沉思什么。</p>
+<p id="L86" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚裹了裹薄披肩，仰头看着路灯晕黄的光铺在江停的头发和侧颊上，宛如一层质地细腻的浅金薄纱。</p>
+<p id="L87" style="margin-bottom: 1.8em; line-height: 2.0;">不管过去多少年，杨媚眼中的江停都和初见时没什么区别。颠沛流离的岁月和险死还生的磨难，都没有夺去他足以面对任何情况的，压倒一切的慎密。</p>
+<p id="L88" style="margin-bottom: 1.8em; line-height: 2.0;">“拉链，”江停喃喃道。</p>
+<p id="L89" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚眼错不眨看着他。</p>
+<p id="L90" style="margin-bottom: 1.8em; line-height: 2.0;">突然江停一抬眼：“你有东西想卖给二手店么？”</p>
+<p id="L91" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚：“二手店？”</p>
+<p id="L92" style="margin-bottom: 1.8em; line-height: 2.0;">·</p>
+<p id="L93" style="margin-bottom: 1.8em; line-height: 2.0;">“Fendi？”马翔接过证物袋里的拉链，对着灯光一照，愕然道。</p>
+<p id="L94" style="margin-bottom: 1.8em; line-height: 2.0;">严峫唏哩呼噜地吃着外卖鳗鱼饭：“嗯哼。”</p>
+<p id="L95" style="margin-bottom: 1.8em; line-height: 2.0;">拉链头上半部分是黑色羊皮，边缘包着黄色油边，下半部分金属则烫着FENDI的文字LOGO。整体还很新，尾部和滑楔相连的小环扣接口处却松了，应该是用力拉扯或挂在哪里之后硬扯下来的。</p>
+<p id="L96" style="margin-bottom: 1.8em; line-height: 2.0;">马翔有点疑惑：“这能证明什么？”</p>
+<p id="L97" style="margin-bottom: 1.8em; line-height: 2.0;">严峫一手捏着油腻腻的筷子，把办公桌上的电脑屏幕推了个角度，示意他看FENDI官网。</p>
+<p id="L98" style="margin-bottom: 1.8em; line-height: 2.0;">马翔：“啥？”</p>
+<p id="L99" style="margin-bottom: 1.8em; line-height: 2.0;">“黑羊皮包黄油边这种配色的拉锁，基本只用在他们这一季新出的男款双肩背上。看到没有，就是这款。”严峫用筷子点了点其中一张图片，点击放大，说：“鉴于季节款刚发售不久，销售量有限，而且奢侈品店都是会记录顾客信息的，我已经让一组的人去国际金融中心那家专卖店调取监控录像了。”</p>
+<p id="L100" style="margin-bottom: 1.8em; line-height: 2.0;">马翔说：“卧槽，这也行？！”</p>
+<p id="L101" style="margin-bottom: 1.8em; line-height: 2.0;">“行不行也就是跑一趟的事，万一赌错了也不损失什么。我让你查的杨媚的案卷呢？”</p>
+<p id="L102" style="margin-bottom: 1.8em; line-height: 2.0;">马翔目瞪口呆，半晌才反应过来，连忙把牛皮纸袋双手呈上。</p>
+<p id="L103" style="margin-bottom: 1.8em; line-height: 2.0;">严峫向后靠在椅背里，打开案卷开始翻阅，马翔立刻偷偷拣了块鳗鱼放进嘴里，好吃得双目飙泪。</p>
+<p id="L104" style="margin-bottom: 1.8em; line-height: 2.0;">杨媚这个案子不复杂，本质上是签字前原店主突然涨价并毁约，杨媚一怒之下把对方告上了法庭。但因为合同本身有漏洞且手续不完善的关系，她极有可能输掉官司，而且会被拖进漫长冗杂的申诉程序里；以严峫半个内行人的眼光来看，杨媚最好在开庭前撤诉认栽，否则很可能既耽误生意又赔掉一大笔钱。</p>
+<p id="L105" style="margin-bottom: 1.8em; line-height: 2.0;">然而她赢了。</p>
+<p id="L106" style="margin-bottom: 1.8em; line-height: 2.0;">跟律师没关系，至少严峫看完庭审记录后并不觉得那律师顶什么鸟用，唯一能解释的是法官当庭爱上了杨媚的绝世美色。</p>
+<p id="L107" style="margin-bottom: 1.8em; line-height: 2.0;">或者，就像这个女人在恭州两次奇迹般逃脱牢狱之灾那样，某个高高在上又隐藏在重重迷雾后的人，再次出手帮助了她。</p>
+<p id="L108" style="margin-bottom: 1.8em; line-height: 2.0;">马翔第三次偷偷摸摸伸向鳗鱼，紧接着被严峫闪电般一筷子敲在了手背上：“哎哟！”</p>
+<p id="L109" style="margin-bottom: 1.8em; line-height: 2.0;">“两包方便面都不够你吃？小心重复隔壁苟主任的悲剧，他那身材就是他妈天天加餐加出来的！”</p>
+<p id="L110" style="margin-bottom: 1.8em; line-height: 2.0;">马翔感到十分委屈：“我们广大人民群众天天加班方便面，最好也就一自热火锅，你身为领导不身先士卒就算了，还在这开资本主义的小灶？”</p>
+<p id="L111" style="margin-bottom: 1.8em; line-height: 2.0;">严峫哼道：“老子凭美色换来的小灶，有本事你也骗一个去。”</p>
+<p id="L112" style="margin-bottom: 1.8em; line-height: 2.0;">马翔：“什么？那KTV老板娘果真看上你英俊的容颜了？！”</p>
+<p id="L113" style="margin-bottom: 1.8em; line-height: 2.0;">严峫：“……”</p>
+<p id="L114" style="margin-bottom: 1.8em; line-height: 2.0;">“我就说昨儿她看你眼神都不对！一个劲在你强健的胸肌和肱二头肌上徘徊！她那文弱的小白脸男朋友哪比得上你这雄性荷尔蒙，严哥努把力，咱兄弟以后能不能唱免费K就看你的了！……”</p>
+<p id="L115" style="margin-bottom: 1.8em; line-height: 2.0;">严峫怒道：“快滚，别逼逼我的肱二头肌，你想被人说咱俩是一对给吗？！”</p>
+<p id="L116" style="margin-bottom: 1.8em; line-height: 2.0;">马翔立刻柔情似水：“给我吃鳗鱼饭，我可以当十分钟的给……”</p>
+<p id="L117" style="margin-bottom: 1.8em; line-height: 2.0;">严峫悍然一脚把他踹下桌，后者表示自己粉红色的玻璃心碎了一地。正吵嚷时电话响了，严峫一手捂住鳗鱼饭一手接了电话：“喂？我严峫，有事快说。”</p>
+<p id="L118" style="margin-bottom: 1.8em; line-height: 2.0;">“严哥，我们在国际金融中心这边查到了监控！四月中旬死者曾到FENDI专卖店买了你说的那个男款双肩背包，售价一万八，付现，高清图像和销售记录都调出来了！”</p>
+<p id="L119" style="margin-bottom: 1.8em; line-height: 2.0;">马翔这没见过世面的直男，眼当场就圆了，满脸写着what，一万八？！</p>
+<p id="L120" style="margin-bottom: 1.8em; line-height: 2.0;">严峫夸了句：“利索。死者留下的身份信息出来没有？”</p>
+<p id="L121" style="margin-bottom: 1.8em; line-height: 2.0;">“有有有，”电话那头悉悉索索翻了会儿，大概是在找身份登记卡，片刻后声音再次响起：“就是这张——名字叫楚慈，慈悲的慈。”</p>
+
+            </div>
+            
+            <div class="novel_bn">
+                <a href="chapter_5.html" class="next" rel="next">Next Chapter (다음 장) >></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
         
